@@ -328,7 +328,10 @@ def main():
         return
 
     for html_path in html_files:
-        output_path = output_dir / (html_path.stem + ".md")
+        parts = [p for p in html_path.stem.split(":") if p]
+        output_path = (output_dir / pathlib.Path(*parts).with_suffix(".md")
+                       if parts else output_dir / (html_path.stem + ".md"))
+        output_path.parent.mkdir(parents=True, exist_ok=True)
         try:
             with open(html_path, encoding="utf-8") as f:
                 soup = BeautifulSoup(f.read(), "html.parser")
@@ -353,7 +356,7 @@ def main():
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(output)
 
-            print(f"{html_path.name} → {output_path.name}")
+            print(f"{html_path.name} → {output_path.relative_to(output_dir)}")
         except Exception as e:
             print(f"Warning: skipping {html_path.name}: {e}", file=sys.stderr)
 
