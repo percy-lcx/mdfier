@@ -53,6 +53,8 @@ def convert_inline(element):
         text = element.get_text(strip=True)
         if not href or href == "#":
             return ""
+        if not (href.startswith("https://") or href.startswith("http://")):
+            href = href.rstrip("/").rsplit("/", 1)[-1]
         if text:
             return f"[{text}]({href})"
         return text
