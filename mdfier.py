@@ -173,6 +173,22 @@ def convert_element(element, blocks):
             blocks.append(list_md)
         return
 
+    # Details/summary — render summary as bold, then recurse into body
+    if tag == "details":
+        summary = element.find("summary")
+        if summary:
+            summary_text = " ".join(summary.get_text().split())
+            if summary_text:
+                blocks.append(f"**{summary_text}**")
+        for child in element.children:
+            if isinstance(child, Tag) and child.name == "summary":
+                continue
+            convert_element(child, blocks)
+        return
+
+    if tag == "summary":
+        return
+
     # Custom product-page div handlers
     classes = element.get("class", [])
 
@@ -354,12 +370,10 @@ def main():
 
             sections = []
             for selector in selectors:
-                element = soup.select_one(selector)
-                if element is None:
-                    continue
-                md = convert_section(element)
-                if md:
-                    sections.append(md)
+                for element in soup.select(selector):
+                    md = convert_section(element)
+                    if md:
+                        sections.append(md)
 
             body = "\n\n---\n\n".join(sections) + "\n"
             output = f"---\ntitle: {title}\n---\n\n" + body if title else body
