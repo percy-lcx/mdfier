@@ -7,6 +7,7 @@ Usage:
     python mdfier.py
     python mdfier.py --selectors ".info h1,.content > .left,.faq"
     python mdfier.py --input-dir html-input --output-dir md-output
+    python mdfier.py --file html-input/page.html
 """
 
 import argparse
@@ -312,22 +313,33 @@ def parse_args():
         default="md-output",
         help="Directory to write .md files (default: md-output)",
     )
+    parser.add_argument(
+        "--file",
+        help="Convert a single .html file instead of the input directory",
+    )
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
 
-    input_dir = pathlib.Path(args.input_dir)
     output_dir = pathlib.Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     selectors = [s.strip() for s in args.selectors.split(",")]
 
-    html_files = sorted(input_dir.glob("*.html"))
-    if not html_files:
-        print(f"No .html files found in {input_dir}", file=sys.stderr)
-        return
+    if args.file:
+        file_path = pathlib.Path(args.file)
+        if not file_path.is_file():
+            print(f"File not found: {file_path}", file=sys.stderr)
+            return
+        html_files = [file_path]
+    else:
+        input_dir = pathlib.Path(args.input_dir)
+        html_files = sorted(input_dir.glob("*.html"))
+        if not html_files:
+            print(f"No .html files found in {input_dir}", file=sys.stderr)
+            return
 
     for html_path in html_files:
         output_path = output_dir / (html_path.stem + ".md")
