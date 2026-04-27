@@ -1,11 +1,16 @@
 """
 Extracts sections from HTML files and converts them to clean Markdown.
 
-Processes all .html files in the input directory and writes .md files to the output directory.
+Processes all .html files in the input directory and writes .md files to the
+output directory. With no --selectors flag, DEFAULT_SELECTORS is used and each
+selector listed in SELECTOR_ALTERNATIVES is auto-swapped per file for the
+variant that matches the most text — so layouts like xauusd (which uses
+.layer-box > .left and .faq-section) work without a flag. Pass --selectors
+to opt out and run exactly the selectors you supply.
 
 Usage:
     python mdfier.py
-    python mdfier.py --selectors ".info h1,.content > .left,.faq"
+    python mdfier.py --selectors ".info,.faq"
     python mdfier.py --input-dir html-input --output-dir md-output
     python mdfier.py --file html-input/page.html
 """
@@ -17,6 +22,17 @@ import sys
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 DEFAULT_SELECTORS = ".info,.content > .left,.faq,div.chart,div.trade-box,div.example-box,div.trade-card"
+
+# Per-file auto-detect: for each default selector below, try every candidate
+# in the tuple and substitute the one matching the most text. Lets a single
+# default cover layout variants (e.g. xauusd uses .layer-box > .left for the
+# body and .faq-section for the FAQ; articles use .content > .left and .faq).
+# The first entry in each tuple wins ties, so when both layouts are present
+# the article-style selector keeps its existing behaviour.
+SELECTOR_ALTERNATIVES = {
+    ".content > .left": (".content > .left", ".layer-box > .left"),
+    ".faq": (".faq", ".faq-section"),
+}
 
 
 def _join_inline(parts):
@@ -310,14 +326,33 @@ def convert_section(element):
     return "\n\n".join(blocks)
 
 
+def pick_alternative(selector, soup):
+    """For a default selector with known alternatives, return the variant whose
+    matches contain the most text on this page. Falls through unchanged when
+    the selector has no alternatives."""
+    alternatives = SELECTOR_ALTERNATIVES.get(selector)
+    if not alternatives:
+        return selector
+    best = selector
+    best_len = -1
+    for cand in alternatives:
+        total = sum(len(el.get_text(strip=True)) for el in soup.select(cand))
+        if total > best_len:
+            best_len = total
+            best = cand
+    return best
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Extract HTML sections and convert to Markdown"
     )
     parser.add_argument(
         "--selectors",
-        default=DEFAULT_SELECTORS,
-        help=f"Comma-separated CSS selectors (default: {DEFAULT_SELECTORS})",
+        default=None,
+        help=f"Comma-separated CSS selectors. When omitted, defaults to "
+             f"'{DEFAULT_SELECTORS}' with per-file auto-detection of "
+             f"layout variants (see SELECTOR_ALTERNATIVES).",
     )
     parser.add_argument(
         "--input-dir",
@@ -342,7 +377,9 @@ def main():
     output_dir = pathlib.Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    selectors = [s.strip() for s in args.selectors.split(",")]
+    auto_alternates = args.selectors is None
+    selector_str = args.selectors if args.selectors is not None else DEFAULT_SELECTORS
+    selectors = [s.strip() for s in selector_str.split(",")]
 
     if args.file:
         file_path = pathlib.Path(args.file)
@@ -368,8 +405,14 @@ def main():
             title_tag = soup.find("title")
             title = title_tag.get_text(strip=True) if title_tag else ""
 
+            file_selectors = list(selectors)
+            if auto_alternates:
+                file_selectors = [
+                    pick_alternative(s, soup) for s in file_selectors
+                ]
+
             sections = []
-            for selector in selectors:
+            for selector in file_selectors:
                 for element in soup.select(selector):
                     md = convert_section(element)
                     if md:
