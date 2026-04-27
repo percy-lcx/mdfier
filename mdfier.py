@@ -19,7 +19,7 @@ import argparse
 import pathlib
 import sys
 
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
 _NESTED_INFO_PARENTS = (
     ".trade-card", ".trade-box", ".trade-mkt",
@@ -78,6 +78,9 @@ def _join_inline(parts):
 
 def convert_inline(element):
     """Convert an element's children to inline Markdown text."""
+    if isinstance(element, Comment):
+        return ""
+
     if isinstance(element, NavigableString):
         text = element.strip()
         return text if text else ""
@@ -160,7 +163,7 @@ def convert_list(element):
 
 def convert_element(element, blocks):
     """Recursively convert an element to Markdown blocks."""
-    if isinstance(element, NavigableString):
+    if isinstance(element, (Comment, NavigableString)):
         return
 
     if not isinstance(element, Tag):

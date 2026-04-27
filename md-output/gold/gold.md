@@ -8,6 +8,82 @@ Trade gold with up to 1:1000 leverage, tight spreads, and zero commissions. Long
 
 ---
 
+Get Started!
+
+Sign up and access the Global Markets in less than 3 minutes
+
+---
+
+## GOLD — SPOT Gold Ounce vs US Dollar chart
+
+---
+
+**XAUUSD**
+
+| Property | Value |
+| --- | --- |
+| Digit | 2 |
+| Trading Size (Contract Size) | 100 |
+| Min Lot | 0.01 |
+| Max Lot | 80 |
+| VFSC Leverage (Fixed) | 1:1000 |
+| Swap Type | SWAP_BY_POINTS |
+| Triple Swap | Wednesday |
+
+---
+
+## Why Trade Gold CFDs?
+
+Trading gold CFDs let you access gold price movements without owning physical gold, with flexibility to trade different market conditions.
+
+**Trade Rising & Falling Prices** — Go long or short on gold price movements.
+
+**Use Leverage** — Control a larger gold position with a smaller upfront amount.
+
+**Access High Liquidity** — Trade in deep, highly liquid gold markets.
+
+---
+
+## Gold CFD Trading Example
+
+### How Profit is Calculated:
+
+- **Opening Price**: USD $2,000 x 0.1 lot = **USD $20,000**
+
+- **Closing Price**: USD $2,050 x 0.1 lot = **USD $20,500**
+
+- **Gross Profit on Trade**: **USD $500**
+
+### Opening the Position
+
+You expect gold prices to rise and open a **long Gold CFD** position of **0.1 lot (10 ounces) at USD $2,000 per ounce**, giving a total position value of **USD $20,000**. With **1:20 leverage**, you only need to commit **USD $1,000** as margin to control this position, rather than paying the full contract value upfront. This allows you to gain greater exposure to gold price movements while using less capital.
+
+### Closing the Position
+
+If the gold price rises to USD $2,050 per ounce, you close the position and realize a **gross profit of USD $500** from the price movement, excluding spreads and any applicable trading costs. This represents a **50% return on the USD $1,000** margin committed. If the price instead falls to USD $1,970 per ounce, closing the trade results in a loss of USD $300, or a 30% loss on your margin.
+
+---
+
+## Why Trade Gold CFDs with TMGM?
+
+- **Gold, Silver, Platinum** — Trade the most popular precious metals accessible from a single TMGM MT4 account.
+
+- **Spreads from 0.0 Pips** — Enjoy ultra-tight spreads thanks to TMGM's proprietary Aggregation Engine, ensuring you consistently get the best pricing.
+
+- **10+ Tier 1 Liquitidy Providers** — Benefit from the deep liquidity of our network, ensuring your trades are always filled at the best available rates.
+
+- **NY4 Servers** — Experience lightning- fast execution with strategically located NY4 servers designed for seamless trading.
+
+- **Up to 1:1000 Leverage** — Maximize your trading potential with leverage of up to 1:1000.
+
+- **All Strategies Allowed** — Whether you're a scalper, news trader, or EA trader, TMGM provides the ideal environment to suit your trading style.
+
+- **No Requotes** — Trade confidently with zero requotes, backed by deep liquidity and fast execution speeds.
+
+- **Trusted & Regulated Broker** — With licenses from ASIC, VFSC, FSA and FSC, TMGM ensures the security of your funds and the reliability of your trading experience.
+
+---
+
 ## Gold CFD FAQs
 
 ### What are gold CFDs?
@@ -55,59 +131,3 @@ Here are 5 steps to start trading gold CFDs with TMGM:
 - Find the gold symbol XAUUSD
 - Choose your position size and set risk controls
 - Place a buy or sell order
-
----
-
-## GOLD — SPOT Gold Ounce vs US Dollar chart
-
----
-
-## Why Trade Gold CFDs?
-
-Trading gold CFDs let you access gold price movements without owning physical gold, with flexibility to trade different market conditions.
-
-**Trade Rising & Falling Prices** — Go long or short on gold price movements.
-
-**Use Leverage** — Control a larger gold position with a smaller upfront amount.
-
-**Access High Liquidity** — Trade in deep, highly liquid gold markets.
-
----
-
-## Gold CFD Trading Example
-
-### How Profit is Calculated:
-
-- **Opening Price**: USD $2,000 x 0.1 lot = **USD $20,000**
-
-- **Closing Price**: USD $2,050 x 0.1 lot = **USD $20,500**
-
-- **Gross Profit on Trade**: **USD $500**
-
-### Opening the Position
-
-You expect gold prices to rise and open a **long Gold CFD** position of **0.1 lot (10 ounces) at USD $2,000 per ounce**, giving a total position value of **USD $20,000**. With **1:20 leverage**, you only need to commit **USD $1,000** as margin to control this position, rather than paying the full contract value upfront. This allows you to gain greater exposure to gold price movements while using less capital.
-
-### Closing the Position
-
-If the gold price rises to USD $2,050 per ounce, you close the position and realize a **gross profit of USD $500** from the price movement, excluding spreads and any applicable trading costs. This represents a **50% return on the USD $1,000** margin committed. If the price instead falls to USD $1,970 per ounce, closing the trade results in a loss of USD $300, or a 30% loss on your margin.
-
----
-
-## Why Trade Gold CFDs with TMGM?
-
-- Gold, Silver, Platinum
-
-- Spreads from 0.0 Pips
-
-- 10+ Tier 1 Liquitidy Providers
-
-- NY4 Servers
-
-- Up to 1:1000 Leverage
-
-- All Strategies Allowed
-
-- No Requotes
-
-- Trusted & Regulated Broker

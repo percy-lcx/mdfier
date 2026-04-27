@@ -12,6 +12,28 @@ When your exit conditions are met, you close the trade and record the outcome in
 
 ---
 
+By TMGM
+
+Date Published: 5 Mar 2026 | Date Modified: 6 Mar 2026
+
+---
+
+TMGM
+
+Trade The World
+
+---
+
+Join Over 1,000,000 clients on our award-winning trading platform
+
+Apply for a Live
+
+Fund Your
+
+Start Trading
+
+---
+
 ## 1. Understand what drives gold prices
 
 Understanding what moves the gold price helps you identify trading opportunities and manage risk.
@@ -208,6 +230,12 @@ Open a gold trading account
 Or [try our free demo account](https://portal.tmgm.com/register?register_type=demo) (no deposit required).
 
 TMGM is regulated by ASIC, VFSC, FSA, and FSC. Client funds are held in segregated accounts.
+
+---
+
+Get Started!
+
+Sign up and access the Global Markets in less than 3 minutes
 
 ---
 

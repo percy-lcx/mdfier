@@ -12,6 +12,28 @@ Across the trading week, Wednesday and Thursday produce the highest and most con
 
 ---
 
+By TMGM
+
+Date Published: 6 Mar 2026 | Date Modified: 6 Mar 2026
+
+---
+
+TMGM
+
+Trade The World
+
+---
+
+Join Over 1,000,000 clients on our award-winning trading platform
+
+Apply for a Live
+
+Fund Your
+
+Start Trading
+
+---
+
 ## What are the XAUUSD trading hours?
 
 XAUUSD trades 24 hours a day, five days a week. The market opens at 22:00 UTC (17:00 EST) on Sunday and closes at 22:00 UTC (17:00 EST) on Friday, with a short daily break from 22:00 to 23:00 UTC (17:00 to 18:00 EST).
@@ -193,6 +215,12 @@ Open a gold trading account
 Or [try our free demo account](https://portal.tmgm.com/register?register_type=demo) (no deposit required).
 
 TMGM is regulated by ASIC, VFSC, FSA, and FSC. Client funds are held in segregated accounts.
+
+---
+
+Get Started!
+
+Sign up and access the Global Markets in less than 3 minutes
 
 ---
 

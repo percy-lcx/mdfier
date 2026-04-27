@@ -14,6 +14,28 @@ Once your trade is live, monitor your position and manage your risk until you ar
 
 ---
 
+By TMGM
+
+Date Published: 6 Mar 2026 | Date Modified: 9 Mar 2026
+
+---
+
+TMGM
+
+Trade The World
+
+---
+
+Join Over 1,000,000 clients on our award-winning trading platform
+
+Apply for a Live
+
+Fund Your
+
+Start Trading
+
+---
+
 ## 1. Understand XAUUSD trading
 
 XAUUSD trading is the [buying and selling of gold](what-is-gold-trading) priced in US dollars on the Forex market. XAU is the ISO currency code for gold. USD is the ISO currency code for the US dollar. The price of XAUUSD tells you how many US dollars it costs to buy one troy ounce of gold.
@@ -258,6 +280,12 @@ Open an XAUUSD trading account
 Or [try our free demo account](https://portal.tmgm.com/register?register_type=demo) (no deposit required).
 
 TMGM is regulated by ASIC, VFSC, FSA, and FSC. Client funds are held in segregated accounts.
+
+---
+
+Get Started!
+
+Sign up and access the Global Markets in less than 3 minutes
 
 ---
 
