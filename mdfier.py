@@ -21,7 +21,27 @@ import sys
 
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-DEFAULT_SELECTORS = ".info,.content > .left,.faq,div.chart,div.trade-box,div.example-box,div.trade-card"
+_NESTED_INFO_PARENTS = (
+    ".trade-card", ".trade-box", ".trade-mkt",
+    ".example-box", ".forex-example", ".forex-pople",
+    ".transparent-box",
+)
+_INFO_NOT = ", ".join(f"{p} .info" for p in _NESTED_INFO_PARENTS)
+
+DEFAULT_SELECTORS = (
+    f".info:not({_INFO_NOT})"   # page header / footer chrome; skip .info nested inside other components
+    ",.content > .left"         # article body wrapper
+    ",div.chart"
+    ",div.table"                # spec table (gold.html, forex.html)
+    ",div.trade-box"
+    ",div.trade-mkt"            # forex.html: "Why Trade CFDs on Forex" cards
+    ",div.example-box"
+    ",div.forex-example"        # forex.html: trading example calculator
+    ",div.forex-pople"          # forex.html: "How Forex Trading Works" intro
+    ",div.transparent-box"      # forex.html: spreads table section
+    ",div.trade-card"
+    ",.faq"
+)
 
 # Per-file auto-detect: for each default selector below, try every candidate
 # in the tuple and substitute the one matching the most text. Lets a single
@@ -152,10 +172,20 @@ def convert_element(element, blocks):
     if tag == "img":
         return
 
-    # Skip UI chrome divs
-    _skip_classes = {"btn", "tips", "share-box", "share"}
-    if tag == "div" and _skip_classes & set(element.get("class", [])):
+    # Skip UI chrome divs and mobile duplicates of components rendered above
+    _skip_classes = {
+        "btn", "share-box", "share",
+        "card-list-mobile", "list-mobile", "table-mobile",
+    }
+    classes_set = set(element.get("class", [])) if tag == "div" else set()
+    if classes_set & _skip_classes:
         return
+    # `.tips` is overloaded: chrome label (`.info > .tips` reading "Article") vs.
+    # content (e.g. `.transparent-box > .tips`). Only skip the chrome variant.
+    if "tips" in classes_set and "text" not in classes_set:
+        parent_classes = set(element.parent.get("class", [])) if element.parent else set()
+        if "info" in parent_classes:
+            return
 
     # Headings
     if tag in ("h1", "h2", "h3", "h4", "h5", "h6"):
@@ -254,6 +284,29 @@ def convert_element(element, blocks):
                     blocks.append(f"**{t}**")
         return
 
+    if tag == "div" and "forex-example" in classes:
+        h2 = element.find("h2", class_="title")
+        if h2:
+            blocks.append(f"## {' '.join(h2.get_text().split())}")
+        calc_title = element.find(class_="calc-title")
+        if calc_title:
+            blocks.append(f"### {calc_title.get_text(strip=True)}")
+            for row in element.find_all(class_="calc-row"):
+                label = row.find(class_="label")
+                value = row.find(class_="value")
+                if label and value:
+                    val_text = _join_inline([convert_inline(c) for c in value.children]).strip()
+                    blocks.append(f"- **{label.get_text(strip=True)}**: {val_text}")
+        for title in element.find_all(class_="pos-title"):
+            blocks.append(f"### {title.get_text(strip=True)}")
+            text = title.parent.find(class_="pos-text")
+            if text:
+                parts = [convert_inline(c) for c in text.children]
+                t = _join_inline(parts).strip()
+                if t:
+                    blocks.append(t)
+        return
+
     if tag == "div" and "example-box" in classes:
         h2 = element.find(class_="example-title")
         if h2:
@@ -282,10 +335,21 @@ def convert_element(element, blocks):
             blocks.append(f"## {' '.join(h2.get_text().split())}")
         for layer in element.find_all("div", class_="item-layer"):
             front = layer.find("div", class_="front")
+            back = layer.find("div", class_="back")
+            name_text = ""
             if front:
                 name = front.find(class_="name")
                 if name:
-                    blocks.append(f"- {' '.join(name.get_text().split())}")
+                    name_text = " ".join(name.get_text().split())
+            desc_text = ""
+            if back:
+                desc = back.find(class_="description")
+                if desc:
+                    desc_text = " ".join(desc.get_text().split())
+            if name_text and desc_text:
+                blocks.append(f"- **{name_text}** — {desc_text}")
+            elif name_text:
+                blocks.append(f"- {name_text}")
         return
 
     # Check if this div is a leaf (no block-level children)
@@ -324,6 +388,29 @@ def convert_section(element):
     blocks = []
     convert_element(element, blocks)
     return "\n\n".join(blocks)
+
+
+def _split_selectors(s):
+    """Split a comma-separated selector string, respecting commas inside ()/[]."""
+    out = []
+    depth = 0
+    buf = []
+    for ch in s:
+        if ch in "([":
+            depth += 1
+        elif ch in ")]":
+            depth -= 1
+        if ch == "," and depth == 0:
+            sel = "".join(buf).strip()
+            if sel:
+                out.append(sel)
+            buf = []
+        else:
+            buf.append(ch)
+    sel = "".join(buf).strip()
+    if sel:
+        out.append(sel)
+    return out
 
 
 def pick_alternative(selector, soup):
@@ -379,7 +466,7 @@ def main():
 
     auto_alternates = args.selectors is None
     selector_str = args.selectors if args.selectors is not None else DEFAULT_SELECTORS
-    selectors = [s.strip() for s in selector_str.split(",")]
+    selectors = _split_selectors(selector_str)
 
     if args.file:
         file_path = pathlib.Path(args.file)
