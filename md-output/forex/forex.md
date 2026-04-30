@@ -14,10 +14,6 @@ Sign up and access the Global Markets in less than 3 minutes
 
 ---
 
-**BidAsk**
-
----
-
 ## Why Trade CFDs on Forex?
 
 The forex market is the world's largest and most liquid, with a daily trading volume exceeding$6 trillion.By trading CFDs on forex, you can capitalize on price movements in global currencies 24 hours a day, five days a week.
@@ -29,46 +25,6 @@ With TMGM, you benefit from:
 ### Leverage of up to 1:1000 for maximum flexibility.
 
 ### Access to powerful trading platforms like MetaTrader 4 and MetaTrader 5
-
-### EURUSD
-
-Spread
-
-Leverage
-
-Up to 1:1000
-
-### USDJPY
-
-Spread
-
-Leverage
-
-Up to 1:1000
-
-### GBPUSD
-
-Spread
-
-Leverage
-
-Up to 1:1000
-
-### AUDUSD
-
-Spread
-
-Leverage
-
-Up to 1:1000
-
-### USDCAD
-
-Spread
-
-Leverage
-
-Up to 1:1000
 
 ---
 
@@ -112,7 +68,14 @@ At TMGM, we pride ourselves on offering tight and transparent spreads, helping y
 
 Our spreads on the world's most popular and liquid currency pairs ensure optimal trading conditions. All pairs are traded against the US Dollar, and our spreads are some of the tightest in the market.
 
-**BidAsk**
+| Pair | Bid | Ask |
+| --- | --- | --- |
+| EURUSD | 1.07479 | 1.07479 |
+| USDJPY | 155.491 | 155.491 |
+| GBPUSD | 1.24809 | 1.24809 |
+| AUDUSD | 1.37552 | 1.37552 |
+| USDCAD | 0.90856 | 0.90856 |
+| USDCHF | 0.90856 | 0.90856 |
 
 ---
 

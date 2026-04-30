@@ -32,7 +32,10 @@ DEFAULT_SELECTORS = (
     f".info:not({_INFO_NOT})"   # page header / footer chrome; skip .info nested inside other components
     ",.content > .left"         # article body wrapper
     ",div.chart"
-    ",div.table"                # spec table (gold.html, forex.html)
+    # spec table at top level (gold.html). forex.html's spread table sits inside
+    # `.transparent-box` and is rendered via that container's recursion, so we
+    # exclude it here to avoid double-rendering.
+    ",div.table:not(.transparent-box div.table)"
     ",div.trade-box"
     ",div.trade-mkt"            # forex.html: "Why Trade CFDs on Forex" cards
     ",div.example-box"
@@ -50,7 +53,16 @@ DEFAULT_SELECTORS = (
 # The first entry in each tuple wins ties, so when both layouts are present
 # the article-style selector keeps its existing behaviour.
 SELECTOR_ALTERNATIVES = {
-    ".content > .left": (".content > .left", ".layer-box > .left"),
+    # `div.html` is the Nuxt SSR wrapper used on oil-trading article pages
+    # (iran-war, crude-oil-price-forecast) where the body sits at
+    # `.content > div.html` instead of `.content > .left`. The :not() guard
+    # excludes the per-FAQ-answer `div.html` Nuxt also emits inside
+    # `.faq-item > .answer`, which would otherwise duplicate FAQ content.
+    ".content > .left": (
+        ".content > .left",
+        ".layer-box > .left",
+        "div.html:not(.answer div.html)",
+    ),
     ".faq": (".faq", ".faq-section"),
 }
 
@@ -175,10 +187,14 @@ def convert_element(element, blocks):
     if tag == "img":
         return
 
-    # Skip UI chrome divs and mobile duplicates of components rendered above
+    # Skip UI chrome divs and mobile duplicates of components rendered above.
+    # `eco-list-box` is the live-quote card grid inside `.trade-mkt` whose
+    # static HTML only carries placeholder zeros for Bid/Ask/Spread.
+    # `tabs-box` is product-category tab navigation.
     _skip_classes = {
         "btn", "share-box", "share",
         "card-list-mobile", "list-mobile", "table-mobile",
+        "eco-list-box", "tabs-box",
     }
     classes_set = set(element.get("class", [])) if tag == "div" else set()
     if classes_set & _skip_classes:
@@ -242,13 +258,39 @@ def convert_element(element, blocks):
     classes = element.get("class", [])
 
     if tag == "div" and "table" in classes:
+        # Two schemas in the corpus:
+        #   gold.html spec table: .table-header (title) + .table-body > .row > [.cell.label, .cell.value]
+        #   forex.html spread table: .table-header > .col (column names) + .table-body > .table-row > [.symbol, .bid, .ask, .actions]
+        body = element.find(class_="table-body")
         header = element.find(class_="table-header")
+        spread_rows = body.find_all(class_="table-row", recursive=False) if body else []
+        if spread_rows:
+            rows = []
+            for tr in spread_rows:
+                sym = tr.find(class_="symbol")
+                bid = tr.find(class_="bid")
+                ask = tr.find(class_="ask")
+                if sym and bid and ask:
+                    rows.append([
+                        sym.get_text(strip=True),
+                        bid.get_text(strip=True),
+                        ask.get_text(strip=True),
+                    ])
+            if rows:
+                lines = ["| Pair | Bid | Ask |", "| --- | --- | --- |"]
+                for r in rows:
+                    lines.append("| " + " | ".join(r) + " |")
+                blocks.append("\n".join(lines))
+            return
+        # Property/value spec table.
         if header:
-            blocks.append(f"**{header.get_text(strip=True)}**")
-        rows = element.find_all(class_="row")
-        if rows:
+            header_text = header.get_text(strip=True)
+            if header_text:
+                blocks.append(f"**{header_text}**")
+        prop_rows = element.find_all(class_="row")
+        if prop_rows:
             lines = ["| Property | Value |", "| --- | --- |"]
-            for row in rows:
+            for row in prop_rows:
                 cells = row.find_all(class_="cell")
                 if len(cells) >= 2:
                     lines.append(f"| {cells[0].get_text(strip=True)} | {cells[1].get_text(strip=True)} |")
