@@ -68,8 +68,7 @@ Fundamentally, oil prices remain supported because supply is tight and markets a
 - Market view:The futures curve still suggests a short term supply shock rather than a permanent structural shortage.
 - Long term path:If disruption continues, prices may stay high longer; if supply stabilizes through reserves, policy action, or easing tensions, prices should gradually fall.
 
-One line takeaway:
-The short term outlook remains bullish, while the longer term direction depends on whether supply disruption persists or starts to normalize.
+**One line takeaway:** The short term outlook remains bullish, while the longer term direction depends on whether supply disruption persists or starts to normalize.
 
 ## Iran U.S. War: Final Verdict & Long Term Outlook
 

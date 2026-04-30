@@ -194,11 +194,11 @@ In forex trading, two currencies are traded simultaneously as a pair, which mean
 
 There are 3 main types of currency pairs in the forex market, such as major pairs, minor pairs, and exotic pairs.
 
-Major currency pairsinclude the US dollar and another major currency from a large, developed economy. These pairs have the highest liquidity and the tightest spreads. Examples of major pairs include EUR/USD, USD/JPY, and GBP/USD.
+**Major currency pairs** include the US dollar and another major currency from a large, developed economy. These pairs have the highest liquidity and the tightest spreads. Examples of major pairs include EUR/USD, USD/JPY, and GBP/USD.
 
-Minor currency pairs, also known as cross pairs, do not include the US dollar but consist of two major currencies. They are actively traded but generally have lower liquidity than majors. Examples of minor pairs include EUR/GBP, EUR/JPY, and GBP/JPY.
+**Minor currency pairs**, also known as cross pairs, do not include the US dollar but consist of two major currencies. They are actively traded but generally have lower liquidity than majors. Examples of minor pairs include EUR/GBP, EUR/JPY, and GBP/JPY.
 
-Exotic currency pairsinclude one major currency and one emerging or smaller economy currency, and they usually have lower liquidity and wider spreads. Examples of exotic pairs include USD/MXN, USD/INR, and USD/TRY.
+**Exotic currency pairs** include one major currency and one emerging or smaller economy currency, and they usually have lower liquidity and wider spreads. Examples of exotic pairs include USD/MXN, USD/INR, and USD/TRY.
 
 While these categories describe how currency pairs are structured and traded, it is also important to understand currency types themselves, such as major, commodity, and emerging currencies, which help explain why certain pairs behave differently in the market.
 
@@ -206,11 +206,11 @@ While these categories describe how currency pairs are structured and traded, it
 
 There are 3 main types of currencies in the forex market: major currencies, commodity currencies, and emerging market currencies.
 
-Major currenciesare currencies issued by large, developed economies with stable political systems, deep financial markets, and high levels of global trade. They are widely held as reserve currencies and are the most actively traded in the forex market. An example of a major currency is the US dollar (USD).
+**Major currencies** are currencies issued by large, developed economies with stable political systems, deep financial markets, and high levels of global trade. They are widely held as reserve currencies and are the most actively traded in the forex market. An example of a major currency is the US dollar (USD).
 
-Commodity currenciesare currencies from countries whose economies rely heavily on the export of raw materials such as oil, metals, or agricultural products. The value of these currencies is often influenced by global commodity prices and external demand. An example of a commodity currency is the Australian dollar (AUD), which is closely linked to iron ore and other resource exports.
+**Commodity currencies** are currencies from countries whose economies rely heavily on the export of raw materials such as oil, metals, or agricultural products. The value of these currencies is often influenced by global commodity prices and external demand. An example of a commodity currency is the Australian dollar (AUD), which is closely linked to iron ore and other resource exports.
 
-Emerging market currenciesare issued by developing or rapidly growing economies with less mature financial systems and higher economic or political risk compared to developed countries. These currencies tend to be more volatile and can be affected by capital flows and global risk sentiment. An example of an emerging market currency is the Indian rupee (INR).
+**Emerging market currencies** are issued by developing or rapidly growing economies with less mature financial systems and higher economic or political risk compared to developed countries. These currencies tend to be more volatile and can be affected by capital flows and global risk sentiment. An example of an emerging market currency is the Indian rupee (INR).
 
 ### What affects the values of currency pairs?
 
@@ -258,26 +258,18 @@ GBP/USD is favored by some scalpers because it generally offers larger intraday 
 
 You start trading currency pairs by following these 8 steps:
 
-1. Learn the basics of the forex market
-Understand how currency pairs work, what moves exchange rates, and how profits and losses are calculated.
+**1. Learn the basics of the forex market** Understand how currency pairs work, what moves exchange rates, and how profits and losses are calculated.
 
-2. Decide how you want to trade forex
-Choose your preferred trading approach, such as spot trading, CFDs, or another forex trading format.
+**2. Decide how you want to trade forex** Choose your preferred trading approach, such as spot trading, CFDs, or another forex trading format.
 
-3. Select a regulated forex broker
-Compare brokers based on regulation, spreads, trading platforms, and execution quality before making a decision.
+**3. Select a regulated forex broker** Compare brokers based on regulation, spreads, trading platforms, and execution quality before making a decision.
 
-4. Set up and verify your trading account
-Register with a [licensed Forex broker](forex), complete identity verification, and fund your account.
+**4. Set up and verify your trading account** Register with a [licensed Forex broker](forex), complete identity verification, and fund your account.
 
-5. Choose the currency pairs you want to trade
-Focus on pairs that match your experience level, volatility preference, and trading strategy.
+**5. Choose the currency pairs you want to trade** Focus on pairs that match your experience level, volatility preference, and trading strategy.
 
-6. Develop a structured trading plan
-Define your entry rules, exit strategy, position sizing, and risk management guidelines before placing trades.
+**6. Develop a structured trading plan** Define your entry rules, exit strategy, position sizing, and risk management guidelines before placing trades.
 
-7. Place your first trade
-Execute your buy or sell order based on your analysis and predefined plan.
+**7. Place your first trade** Execute your buy or sell order based on your analysis and predefined plan.
 
-8. Track and manage your open positions
-Monitor price movements, adjust stop-loss or take-profit levels if needed, and review your trade performance for improvement.
+**8. Track and manage your open positions** Monitor price movements, adjust stop-loss or take-profit levels if needed, and review your trade performance for improvement.

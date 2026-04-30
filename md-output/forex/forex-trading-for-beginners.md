@@ -47,25 +47,25 @@ Forex trading is the buying and selling of currencies in a global, decentralized
 
 There are 7 core mechanics in Forex trading:
 
-1. Currency pairs
+**1. Currency pairs**
 Forex trades in pairs, such as EUR/USD. The first currency is the base currency. The second currency is the quote currency.
 
-2. Buying and selling
+**2. Buying and selling**
 You buy the pair if you expect the base currency to rise. You sell the pair if you expect it to fall.
 
-3. Price movement (pips)
+**3. Price movement (pips)**
 Most pairs move in 0.0001 increments. This unit is called a pip.
 
-4. Spreads
+**4. Spreads**
 The spread is the difference between the bid and ask price. Price must move beyond the spread for a trade to become profitable.
 
-5. Leverage and margin
+**5. Leverage and margin**
 Leverage allows you to control a larger position with smaller capital. Margin is the required deposit to open the trade.
 
-6. Market factors
+**6. Market factors**
 Interest rates, economic data, and central bank policy influence currency prices.
 
-7. Trading hours
+**7. Trading hours**
 The Forex market operates 24 hours per day, five days per week.
 
 Understanding Forex trading mechanisms is essential before placing any trade because every position carries risk exposure, leverage impact, and transaction costs. A solid grasp of [market structure, pricing mechanics, and order execution](what-is-forex-trading) reduces avoidable errors and strengthens risk control before progressing to live execution.
@@ -89,13 +89,13 @@ There are 4 main Forex trading methods for retail traders:
 3. Forex Options
 4. Forex Futures
 
-Spot Forexis the direct exchange of one currency for another at the current market price, with settlement typically occurring within two business days. Spot Forex provides immediate market access with deep liquidity and tight spreads.
+**Spot Forex** is the direct exchange of one currency for another at the current market price, with settlement typically occurring within two business days. Spot Forex provides immediate market access with deep liquidity and tight spreads.
 
-Forex CFDs(Contracts for Difference) are derivative contracts that allow traders to speculate on currency price movements without owning the underlying currencies. Forex CFDs allow [leveraged trading and access to both rising and falling markets](how-to-trade-forex-cfd) with lower initial capital.
+**Forex CFDs** (Contracts for Difference) are derivative contracts that allow traders to speculate on currency price movements without owning the underlying currencies. Forex CFDs allow [leveraged trading and access to both rising and falling markets](how-to-trade-forex-cfd) with lower initial capital.
 
-Forex optionsare contracts that give the buyer the right, but not the obligation, to buy or sell a currency pair at a fixed price before a specified expiration date. Forex options limit maximum loss to the premium paid while preserving upside potential.
+**Forex options** are contracts that give the buyer the right, but not the obligation, to buy or sell a currency pair at a fixed price before a specified expiration date. Forex options limit maximum loss to the premium paid while preserving upside potential.
 
-Forex futuresare standardized contracts traded on regulated exchanges to buy or sell a currency pair at a fixed price on a future date. Forex futures provide centralized clearing and transparent pricing, which reduces counterparty risk.
+**Forex futures** are standardized contracts traded on regulated exchanges to buy or sell a currency pair at a fixed price on a future date. Forex futures provide centralized clearing and transparent pricing, which reduces counterparty risk.
 
 ## 3. Choose a Forex broker
 
@@ -103,43 +103,43 @@ A Forex broker is a financial intermediary that provides retail traders access t
 
 Check the following 13 criteria to choose a Forex broker that aligns with your needs:
 
-1. Regulatory status
+**1. Regulatory status**
 Ensure the broker is licensed by a recognized financial authority. Regulation strengthens client fund protection, transparency, and operational oversight. Prioritize regulation, security, trading costs, and choice of assets.
 
-2. Execution model
+**2. Execution model**
 Understand whether the broker operates under STP, ECN, or market maker models. Execution structure influences spreads, slippage, and potential conflict of interest.
 
-3. Industry track record
+**3. Industry track record**
 Review operating history, reputation, and any past regulatory actions. Longevity and stability reduce counterparty risk.
 
-4. Funding and withdrawal process
+**4. Funding and withdrawal process**
 Evaluate deposit methods, processing speed, fees, and withdrawal reliability. Efficient capital movement is critical for active traders.
 
-5. Trading costs
+**5. Trading costs**
 Compare spreads, costs, commission structures, and swap rates. Lower transaction costs improve long-term expectancy, especially for high-frequency or intraday strategies.
 
-6. Order execution quality
+**6. Order execution quality**
 Assess execution speed, slippage frequency, requotes, and fill reliability. Strong execution infrastructure supports precision-based strategies.
 
-7. Leverage terms
+**7. Leverage terms**
 Review maximum leverage, margin requirements, and margin call policies. Leverage should align with your risk management framework.
 
-8. Market access hours
+**8. Market access hours**
 Confirm trading session coverage and weekend policies. Brokers should provide stable access during major global Forex sessions.
 
-9. Product range
+**9. Product range**
 Check available currency pairs (majors, minors, exotics) and additional instruments such as indices, commodities, or CFDs. Asset choice should match your strategy diversification needs.
 
-10. Account options
+**10. Account options**
 Evaluate standard, ECN, raw spread, Islamic, demo, and professional account structures. Choose the structure that aligns with your capital size and execution preference.
 
-11. Trading platform features
+**11. Trading platform features**
 Analyze charting tools, order types, algorithmic trading support, and platform stability. Try platforms out and see what works for your specific FX strategy.
 
-12. Educational resources
+**12. Educational resources**
 Assess market research, webinars, tutorials, and analytical tools. Quality education supports structured development.
 
-13. Customer service quality
+**13. Customer service quality**
 Test response time, multilingual support, and problem resolution efficiency. Operational support becomes critical during volatile market conditions.
 
 The best Forex broker is the one that aligns with your trading method, capital size, risk tolerance, and market focus. Understanding [how to choose a Forex broker](best-forex-broker) can help you make a more informed decision.
@@ -152,19 +152,15 @@ A Forex trading account is a brokerage account that allows you to access the For
 
 Complete the following 4 steps to open a Forex trading account:
 
-1. Visit the Forex broker’s website
-Go to the official website of your chosen Forex broker. Review the broker’s account types, regulatory information, trading conditions, and platform options before proceeding with registration.
+**1. Visit the Forex broker’s website** Go to the official website of your chosen Forex broker. Review the broker’s account types, regulatory information, trading conditions, and platform options before proceeding with registration.
 
-2. Open your live Forex trading account
-Complete the online application form to [open a Forex trading account](forex). You will need to provide personal details such as your full name, residential address, date of birth, and tax identification number.
+**2. Open your live Forex trading account** Complete the online application form to [open a Forex trading account](forex). You will need to provide personal details such as your full name, residential address, date of birth, and tax identification number.
 
 Most brokers require identity verification to comply with regulatory and anti-money laundering rules. Upload proof of identity and proof of address as requested. Approval typically takes from a few minutes to several business days.
 
-3. Fund your Forex trading account
-Deposit funds using one of the broker’s supported payment methods. Some brokers require a minimum initial deposit, while others have no minimum deposit requirement. The amount you fund should align with your risk management plan and trading strategy.
+**3. Fund your Forex trading account** Deposit funds using one of the broker’s supported payment methods. Some brokers require a minimum initial deposit, while others have no minimum deposit requirement. The amount you fund should align with your risk management plan and trading strategy.
 
-4. Access your Forex trading platform
-Once your account is approved and funded, log in to the broker’s trading platform to begin trading. Many brokers also provide a demo account, allowing you to practice under live market conditions without risking real capital.
+**4. Access your Forex trading platform** Once your account is approved and funded, log in to the broker’s trading platform to begin trading. Many brokers also provide a demo account, allowing you to practice under live market conditions without risking real capital.
 
 Trade Forex with TMGM worry-free.
 
@@ -180,19 +176,15 @@ Currency pairs are two currencies quoted together to show how much of the quote 
 
 There are 5 factors traders should consider when finding currency pairs to trade.
 
-1. Trading session
-The trading session refers to the time of day when you place trades and which global financial centres are active. You should choose currency pairs that are most active during your trading hours because liquidity and price movement vary significantly throughout the day. The London–New York session overlap is the highest-volume window, accounting for over 37% of daily Forex volume. Higher volume during this window produces tighter spreads and stronger price movement.
+**1. Trading session** The trading session refers to the time of day when you place trades and which global financial centres are active. You should choose currency pairs that are most active during your trading hours because liquidity and price movement vary significantly throughout the day. The London–New York session overlap is the highest-volume window, accounting for over 37% of daily Forex volume. Higher volume during this window produces tighter spreads and stronger price movement.
 
-2. Liquidity and trade volume
-Liquidity and trade volume measure how actively a currency pair is traded in the market. You should select pairs with high trading volume because higher liquidity reduces spreads and improves order execution. The [most popular currency pairs](best-forex-pairs-to-trade) among retail traders are major pairs with the highest global trading volume, including EUR/USD, USD/JPY, GBP/USD, USD/CAD, and USD/CNY.
+**2. Liquidity and trade volume** Liquidity and trade volume measure how actively a currency pair is traded in the market. You should select pairs with high trading volume because higher liquidity reduces spreads and improves order execution. The [most popular currency pairs](best-forex-pairs-to-trade) among retail traders are major pairs with the highest global trading volume, including EUR/USD, USD/JPY, GBP/USD, USD/CAD, and USD/CNY.
 
-3. Volatility
-Volatility measures how many pips a currency pair moves within a given period. You should evaluate volatility because price movement creates tradable range, and without movement there is no profit potential. For example, EUR/USD moves approximately 60–100 pips per day. A daily range of this size provides room for three common trading approaches: breakout entries, trend continuation, and intraday swings.
+**3. Volatility** Volatility measures how many pips a currency pair moves within a given period. You should evaluate volatility because price movement creates tradable range, and without movement there is no profit potential. For example, EUR/USD moves approximately 60–100 pips per day. A daily range of this size provides room for three common trading approaches: breakout entries, trend continuation, and intraday swings.
 
-4. Trading strategy compatibility
-Trading strategy compatibility refers to how well a currency pair’s behavior aligns with your trading method. You should match the pair to your strategy because different strategies require different market conditions. A short-term breakout trading may require higher volatility, while a range trading may perform better on more stable pairs.
+**4. Trading strategy compatibility** Trading strategy compatibility refers to how well a currency pair’s behavior aligns with your trading method. You should match the pair to your strategy because different strategies require different market conditions. A short-term breakout trading may require higher volatility, while a range trading may perform better on more stable pairs.
 
-5. Compare currency strength
+**5. Compare currency strength**
 Currency strength refers to how consistently a currency is rising or falling relative to others. You should compare currency strength because Forex pairs move more clearly when one currency is gaining value while the other is losing value. The bigger the strength difference, the stronger the potential trend, which is why traders often buy a strong currency against a weak one or sell a currency that has already risen sharply and is starting to reverse.
 
 ## 6. Create a Forex trading plan
@@ -203,25 +195,25 @@ A structured Forex trading plan removes emotional decision-making, improves disc
 
 A Forex trading plan includes the following 7 components:
 
-1. Trading goals
+**1. Trading goals**
 Define clear performance targets, such as monthly return objectives or maximum drawdown limits.
 
-2. Markets and currency pairs
+**2. Markets and currency pairs**
 Specify which currency pairs you will trade and during which trading sessions.
 
-3. Trading strategy
+**3. Trading strategy**
 A [trading strategy in Forex](forex-trading-strategies) defines the setup criteria, indicators used, timeframes traded, and confirmation rules required before entering a position. It sets the technical or fundamental conditions that must be met before executing a trade.
 
-4. Entry rules
+**4. Entry rules**
 State the exact conditions required to open a trade.
 
-5. Exit rules
+**5. Exit rules**
 Define stop-loss placement, take-profit levels, and trade management rules.
 
-6. Risk management rules
+**6. Risk management rules**
 Set maximum risk per trade, position sizing formula, and total account risk exposure. A widely accepted risk guideline is to risk no more than 1–2% of your account balance per trade to help preserve capital and reduce the likelihood of significant drawdowns over time.
 
-7. Trading journal
+**7. Trading journal**
 Document each trade and schedule regular performance reviews to identify strengths and weaknesses.
 
 ## 7. Open your Forex trade
@@ -250,13 +242,13 @@ Avoid impulsive risk adjustments, and leave the market when conditions no longer
 
 Below are two Forex trading examples that demonstrate how buying (long) and selling (short) positions work.
 
-Example 1: Buying (Long Position)
+**Example 1: Buying (Long Position)**
 
 A trader buys EUR/USD at 1.1000 because analysis indicates the euro will strengthen against the U.S. dollar. The trader opens 1 standard lot (100,000 units). The price rises to 1.1050, which is a 50-pip increase.
 
 Each pip in a standard lot of EUR/USD equals USD 10. A 50-pip gain results in USD 500 profit (50 × 10). The trader closes the position at 1.1050 and realizes the gain.
 
-Example 2: Selling (Short Position)
+**Example 2: Selling (Short Position)**
 
 A trader sells GBP/USD at 1.2500 because analysis indicates the British pound will weaken against the U.S. dollar. The trader opens 1 standard lot (100,000 units). The price falls to 1.2450, which is a 50-pip decrease.
 

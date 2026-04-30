@@ -48,7 +48,7 @@ Brokers monitor equity against used margin and calculate margin level as (equity
 
 Assume you open a EUR/USD position worth USD 100,000 (1 standard lot) with a 2% margin requirement.
 
-Margin required = USD 100,000 × 2% = USD 2,000
+*Margin required = USD 100,000 × 2% = USD 2,000*
 
 If your account balance is USD 5,000, the broker reserves USD 2,000 as used margin. The remaining USD 3,000 stays as free margin and absorbs unrealized losses or supports additional positions.
 
@@ -62,14 +62,11 @@ You calculate margin for a Forex trade by multiplying the total position value b
 2. Identify the margin requirement
 3. Apply the formula
 
-1. Determine the position size
-Identify the total notional value of the trade. For example, 1 standard lot in EUR/USD equals 100,000 units of the base currency.
+**1. Determine the position size** Identify the total notional value of the trade. For example, 1 standard lot in EUR/USD equals 100,000 units of the base currency.
 
-2. Identify the margin requirement
-Brokers express margin as a percentage, such as 1%, 2%, or 3.33%.
+**2. Identify the margin requirement** Brokers express margin as a percentage, such as 1%, 2%, or 3.33%.
 
-3. Apply the formula
-Margin required = Position value × Margin requirement
+**3. Apply the formula** Margin required = Position value × Margin requirement
 
 Most trading platforms automatically calculate required margin when opening a trade, display it in the [margin calculator](margin-calculator), and update it in real time until closing the position.
 
@@ -79,9 +76,9 @@ Most trading platforms automatically calculate required margin when opening a tr
 
 Brokers calculate margin requirements using the inverse of leverage:
 
-Margin requirement = 1 ÷ Leverage
+*Margin requirement = 1 ÷ Leverage*
 
-For example:
+**For example:**
 
 | Leverage | Margin Requirement |
 | --- | --- |
@@ -111,7 +108,7 @@ Assume you have a USD 5,000 account and open a USD 100,000 EUR/USD position with
 
 Free margin in Forex is the account equity not reserved for open positions. It is available to open new trades or absorb losses from existing positions. Free margin is calculated as:
 
-Free Margin = Equity − Used Margin
+*Free Margin = Equity − Used Margin*
 
 In the example above, your free margin is USD 3,000 (USD 5,000 − USD 2,000). This amount absorbs any unrealized losses on the open position and supports any additional trades you want to open.
 
@@ -140,16 +137,16 @@ The 4 benefits of margin in Forex include:
 3. Greater market participation
 4. Ability to diversify across positions
 
-1. Access to larger market positions
+**1. Access to larger market positions**
 Margin allows traders to control positions larger than their account balance by using leverage. This allows greater position control without committing the full trade value upfront.
 
-2. Efficient use of trading capital
+**2. Efficient use of trading capital**
 Margin requires only a small percentage of the total position value. Traders can allocate remaining funds to additional trades, risk management, or reserve capital to absorb losses.
 
-3. Greater market participation
+**3. Greater market participation**
 Margin lowers the capital barrier to [enter the Forex market](forex). Traders can access major currency pairs and execute meaningful trade sizes without depositing the full notional value of the position. A 2024 study of US margin Forex traders found that 38% cited low capital entry as a primary reason for starting Forex trading.
 
-4. Ability to diversify across positions
+**4. Ability to diversify across positions**
 Margin allows traders to spread available capital across multiple currency pairs simultaneously. This reduces dependence on a single trade and distributes market exposure across different positions.
 
 ## What are the risks of margin in Forex?
@@ -161,16 +158,16 @@ The 4 risks of margin in Forex include:
 3. Forced position liquidation
 4. Rapid capital depletion
 
-1. Amplified losses
+**1. Amplified losses**
 Margin magnifies losses in the same way it magnifies gains. A small adverse price movement can generate losses that are large relative to the margin used.
 
-2. Margin calls
+**2. Margin calls**
 Losses can reduce account equity and trigger a margin call when the margin level falls below the broker’s required threshold. Traders may need to deposit additional funds or close positions to restore the margin level.
 
-3. Forced position liquidation
+**3. Forced position liquidation**
 The broker may automatically close open positions if equity continues to decline after a margin call, preventing the account balance from going negative. At a 50% stop-out level, the broker begins closing open positions starting with those incurring the largest losses once the margin level reaches that threshold.
 
-4. Rapid capital depletion
+**4. Rapid capital depletion**
 Leveraged exposure increases the speed at which losses accumulate. High volatility or large position sizes can quickly reduce account equity and deplete trading capital. ESMA reports that 74% to 89% of retail accounts lose money trading leveraged CFDs, including Forex products. NFA and ESMA data show that only 25% to 30% of retail trading accounts are profitable in any given quarter, and the percentage of traders earning a full-time income from trading is estimated at 1% to 3%.
 
 ### How do I manage risks with margin in Forex?
@@ -183,19 +180,19 @@ There are 5 ways to manage risks when trading Forex with margin because leverage
 4. Monitor margin levels
 5. Avoid over-leveraging
 
-1. Practice using demo Forex accounts
+**1. Practice using demo Forex accounts**
 Use demo accounts to test trading strategies without risking real capital. This helps traders understand how leverage and price movements affect account equity.
 
-2. Set stop-loss orders
+**2. Set stop-loss orders**
 Stop-loss orders automatically close a position at a predefined loss level, limiting downside risk.
 
-3. Use take-profit orders
+**3. Use take-profit orders**
 Take-profit orders automatically close a position once a target price is reached. This locks in gains and reduces the need to monitor positions continuously.
 
-4. Monitor margin levels
+**4. Monitor margin levels**
 Track margin levels regularly to maintain sufficient equity relative to used margin and avoid margin calls.
 
-5. Avoid over-leveraging
+**5. Avoid over-leveraging**
 Limit leverage by using smaller position sizes relative to account capital. Lower leverage slows the rate at which losses reduce account equity. Most professional traders use leverage of up to 5:1 or none at all, and risk no more than 2% of account capital per trade.
 
 A [clear margin strategy](margin-strategies-tips-and-strategies) defines position sizing, leverage limits, stop-loss placement, and acceptable margin levels before entering a trade. Risk management guidelines recommend risking 1–2% of account equity per trade, keeping total margin usage below 30–40% of account equity, and maintaining margin levels above 200% to preserve a buffer during volatility.

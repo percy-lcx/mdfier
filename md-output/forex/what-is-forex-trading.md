@@ -52,25 +52,24 @@ Forex trading works by trading currency pairs in a global decentralized, OTC mar
 
 There are 7 core mechanics in Forex trading:
 
-1. Currency pairs
+**1. Currency pairs**
 Forex is traded in pairs. Take EUR/USD for example: the first pair EUR is the base currency; the second pair USD is the quote currency. Over 70 currency pairs are traded globally in the Forex market.
 
-2. Buying and selling a currency pair
+**2. Buying and selling a currency pair**
 You buy the pair if you expect the base currency to rise. You sell the pair if you expect it to fall.
 
-3. Price movement
+**3. Price movement**
 Most currency pairs move in increments of 0.0001. This price movement is called a pip.
 
-4. Spreads
-The spread is the difference between the bid (sell) price and the ask (buy) price. A Forex trade must move beyond the spread to become profitable.
+**4. Spreads** The spread is the difference between the bid (sell) price and the ask (buy) price. A Forex trade must move beyond the spread to become profitable.
 
-5. Leverage and margin
+**5. Leverage and margin**
 Leverage allows you to control a larger Forex position with a smaller amount of capital. Margin is the required deposit to open and maintain that position.
 
-6. Forex market factors
+**6. Forex market factors**
 Interest rates, economic indicators, central bank policy, and market sentiment are Forex market factors that influence the supply and demand of one currency relative to another within a currency pair, which determines exchange rate movements.
 
-7. Trading hours
+**7. Trading hours**
 The Forex market operates 24 hours a day, 5 days a week.
 
 ### What are currency pairs?
@@ -179,16 +178,16 @@ For Japanese yen (JPY) pairs, one pip equals 0.01, which is the second decimal p
 
 The supply and demand between currencies moves the Forex market. There are 4 key factors that determine the supply and demand of currencies:
 
-1. Central banks and interest rates
+**1. Central banks and interest rates**
 Central banks influence currency value through monetary policy and interest rate decisions.
 
-2. Economic indicators
+**2. Economic indicators**
 Economic reports such as GDP, inflation, and employment influence currency demand by signaling economic strength or weakness. Strong data increases demand as investors expect growth and higher rates, while weak data reduces demand and increases selling pressure.
 
-3. Government announcements and news reports
+**3. Government announcements and news reports**
 Government policy changes and geopolitical events influence currency demand by affecting investor confidence. Stability increases demand, while uncertainty increases currency supply as capital moves to safer markets.
 
-4. Capital flows and trade balances
+**4. Capital flows and trade balances**
 Imports and exports drive cross-border currency demand. Trade surpluses increase demand as foreign buyers purchase the domestic currency, while trade deficits increase supply as it is sold to buy foreign goods.
 
 ### What are the Forex trading hours?
@@ -201,40 +200,40 @@ Understanding [Forex trading hours](forex-market-hours) helps clarify when each 
 
 There are 12 primary reasons to trade Forex:
 
-1. 24-hour market access
+**1. 24-hour market access**
 Trading operates five days per week across global financial centers.
 
-2. High liquidity
+**2. High liquidity**
 Large daily volume allows fast position entry and exit.
 
-3. Low manipulation risk
+**3. Low manipulation risk**
 Market size limits individual influence on price.
 
-4. Low transaction costs
+**4. Low transaction costs**
 Major currency pairs typically have tight spreads.
 
-5. Wide instrument selection
+**5. Wide instrument selection**
 Major, minor, and exotic currency pairs are available.
 
-6. Long and short trading
+**6. Long and short trading**
 Profit is possible in rising or falling markets.
 
-7. Frequent price volatility
+**7. Frequent price volatility**
 Economic data and interest rate decisions drive daily movement.
 
-8. Leverage availability
+**8. Leverage availability**
 Margin trading increases market exposure relative to capital.
 
-9. Low capital requirements
+**9. Low capital requirements**
 Many brokers allow small initial deposits.
 
-10. Accessible account setup
+**10. Accessible account setup**
 Retail traders can open accounts online.
 
-11. Hedging capability
+**11. Hedging capability**
 Positions can offset foreign exchange exposure.
 
-12. Potential tax efficiency via CFDs
+**12. Potential tax efficiency via CFDs**
 Tax treatment depends on jurisdiction.
 
 These are the [main advantages of Forex trading](forex-trading-benefits). Knowing how each one works helps you decide if Forex trading fits your strategy, budget, and risk appetite.
@@ -243,34 +242,34 @@ These are the [main advantages of Forex trading](forex-trading-benefits). Knowin
 
 There are 10 pitfalls of Forex trading:
 
-1. Fraud and scams
+**1. Fraud and scams**
 Unregulated brokers or schemes can misappropriate funds.
 
-2. Broker-controlled execution
+**2. Broker-controlled execution**
 Order pricing and speed depend on broker infrastructure.
 
-3. Broker solvency risk
+**3. Broker solvency risk**
 Financial instability can affect withdrawals.
 
-4. Broker bankruptcy risk
+**4. Broker bankruptcy risk**
 Fund protection varies by regulatory jurisdiction.
 
-5. Platform failure risk
+**5. Platform failure risk**
 Technical outages can block order execution.
 
-6. Regulatory restriction risk
+**6. Regulatory restriction risk**
 Authorities may reduce leverage or limit withdrawals.
 
-7. Low liquidity risk
+**7. Low liquidity risk**
 Thin markets widen spreads and increase slippage.
 
-8. Interest rate volatility risk
+**8. Interest rate volatility risk**
 Central bank decisions trigger sharp price movements.
 
-9. Market volatility risk
+**9. Market volatility risk**
 Rapid price changes can eliminate account equity.
 
-10. Leverage risk
+**10. Leverage risk**
 Excessive leverage magnifies losses and can exceed margin in certain conditions.
 
 Knowing these [Forex trading pitfalls](forex-trading-risks) helps you protect your funds, improve trade execution, and manage your account more consistently.
@@ -279,28 +278,28 @@ Knowing these [Forex trading pitfalls](forex-trading-risks) helps you protect yo
 
 You [start trading Forex](forex-trading-for-beginners) by following these 8 steps:
 
-1. Understand Forex trading
+**1. Understand Forex trading**
 Learn how currency pairs work and understand core concepts such as pips, spreads, leverage, margin, and risk management.
 
-2. Select a Forex trading method
+**2. Select a Forex trading method**
 Choose how you want to trade currencies, such as spot Forex, Forex CFDs, futures, options, forwards, or swaps.
 
-3. Choose a Forex broker
+**3. Choose a Forex broker**
 Select a regulated broker that offers competitive pricing, reliable execution, and appropriate leverage.
 
-4. Open a Forex trading account
+**4. Open a Forex trading account**
 Register, complete identity verification, and fund either a demo or live trading account.
 
-5. Research currency pairs to trade
+**5. Research currency pairs to trade**
 Analyze economic data, central bank policies, and price charts before entering the market.
 
-6. Create a Forex trading plan
+**6. Create a Forex trading plan**
 Define entry and exit rules, position size, and risk per trade before placing orders.
 
-7. Open your Forex trade
+**7. Open your Forex trade**
 Select the currency pair, set trade size, apply stop-loss and take-profit levels, and execute the order.
 
-8. Monitor your Forex trade
+**8. Monitor your Forex trade**
 Track price movement and manage the position according to your trading plan.
 
 Trade Forex with TMGM worry-free.
@@ -337,25 +336,25 @@ Sign up and access the Global Markets in less than 3 minutes
 
 ### What are the costs involved in Forex trading?
 
-1. Spreads
+**1. Spreads**
 The spread is the difference between the bid and ask price of a currency pair and represents the primary transaction cost when entering and exiting a trade. For example, if EUR/USD is quoted at 1.1000 / 1.1002, the 2-pip difference means a buy position begins 2 pips in loss and must move at least 2 pips in favor to break even.
 
-2. Commissions
+**2. Commissions**
 Some Forex brokers charge a separate commission, especially on RAW or ECN-style accounts with tighter spreads. The commission is usually quoted per standard lot of 100,000 units and charged per side. For example, a $7 round-turn commission means $3.50 is charged when opening one standard lot and $3.50 when closing it, for a total of $7 per lot.
 
-3. Swap fees
+**3. Swap fees**
 A swap fee is the overnight interest charge or credit applied when a Forex position remains open past the daily market close. This charge occurs during the rollover process, which extends the position to the next trading day. The fee is based on the interest rate difference between the two currencies in the pair. Swap fees are applied daily, with a triple swap commonly charged on Wednesday, and are separate from spreads and commissions. For example, if the swap rate is −$4.79 per night and the position is held for three nights, a total of $14.37 would be deducted from the account.
 
-4. Account fees
+**4. Account fees**
 Some brokers charge account-related fees, such as deposit and withdrawal fees, currency conversion fees, or administrative charges depending on the payment method and account type. Not all brokers apply these fees, and policies vary by provider.
 
-5. Currency conversion charges
+**5. Currency conversion charges**
 Currency conversion charges apply when the account base currency differs from the traded instrument. This cost occurs when profits are generated in another currency and must be converted, or when funds are exchanged into the account’s base currency, resulting in a conversion fee or rate adjustment. For example, if the account currency is USD and a trade is placed on GBP/JPY, any profit is generated in JPY. When the trade closes, the JPY amount is converted into USD at the prevailing exchange rate, and a small conversion cost may be applied during that conversion.
 
-6. Slippage
+**6. Slippage**
 Slippage occurs when an order is executed at a different price than requested, often during high volatility. For example, if a trader places a buy order for EUR/USD at 1.1000 but the order is filled at 1.1003, the 3-pip difference is negative slippage. If the order is filled at 1.0998 instead, the 2-pip improvement is positive slippage.
 
-7. Inactivity fees
+**7. Inactivity fees**
 Inactivity fees applied when a trading account remains unused for a specified period, such as several months without placing trades or logging in. The fee is typically deducted monthly from the account balance after the inactivity threshold is reached, depending on the broker’s policy.
 
 ### How profitable is Forex trading?

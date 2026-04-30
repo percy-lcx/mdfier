@@ -79,27 +79,27 @@ Gold ETFs also charge ongoing management fees. For major physical gold ETFs, ann
 
 There are 6 benefits of gold ETFs:
 
-1. Easy access to gold exposure
+**1. Easy access to gold exposure**
 
 Gold ETFs allow investors to gain gold exposure more easily than traditional methods such as buying and storing physical gold.
 
-2. Hedge against inflation and currency risk
+**2. Hedge against inflation and currency risk**
 
 Gold ETFs are commonly used as a hedge against inflation and currency depreciation. Because their value tracks gold prices, they can help preserve purchasing power when fiat currencies weaken.
 
-3. Lower overall costs
+**3. Lower overall costs**
 
 Gold ETFs typically have lower overall costs compared to buying physical gold. Investors do not pay storage, insurance, or security costs, and most gold ETFs do not charge entry or exit loads. Annual expense ratios for major physical gold ETFs commonly range from 0.1% to 0.4%, which is often lower than the combined costs of storing and insuring physical gold over time.
 
-4. Fully allocated gold exposure
+**4. Fully allocated gold exposure**
 
 Many physical gold ETFs provide exposure backed by fully allocated gold bullion. This means the fund holds gold specifically allocated to investors rather than relying on unsecured claims.
 
-5. Flexible investment size
+**5. Flexible investment size**
 
 Gold ETFs allow investors to buy and sell small quantities of gold exposure. This flexibility removes the need for large upfront commitments and makes gold investing more accessible for active portfolio management.
 
-6. Liquidity and transparency
+**6. Liquidity and transparency**
 
 Because gold ETFs are traded on stock exchanges, they offer high liquidity and transparent pricing. For example, SPDR Gold Shares (GLD) regularly trades more than 14 million shares per day on average, which allows investors to enter and exit positions during market hours at prices that closely reflect gold market movements.
 
@@ -107,27 +107,27 @@ Because gold ETFs are traded on stock exchanges, they offer high liquidity and t
 
 There are 6 limitations of gold ETFs:
 
-1. Lack of physical ownership
+**1. Lack of physical ownership**
 
 Most gold ETFs do not permit delivery of physical bullion to retail investors. Investors gain price exposure to gold, but they do not directly own or control physical gold.
 
-2. Tax treatment similar to physical gold
+**2. Tax treatment similar to physical gold**
 
 In many jurisdictions, investors pay the same taxes on gold ETFs as they would on gold bullion. Gold ETFs typically face capital gains tax treatment, which can reduce after-tax returns.
 
-3. Ongoing fees and expenses
+**3. Ongoing fees and expenses**
 
 Gold ETFs often carry an expense ratio and may include additional management or administrative fees. These costs can gradually reduce returns over time, especially for long-term holders.
 
-4. Lower income potential
+**4. Lower income potential**
 
 Gold ETFs are considered a relatively safe investment, but they do not generate income. Their returns depend solely on gold price movements, which means yields may be lower compared to income-producing assets.
 
-5. Sensitivity to global factors
+**5. Sensitivity to global factors**
 
 Gold ETF prices are influenced by geopolitical turmoil, global trade policies, and broader macroeconomic conditions. Rapid changes in these factors can increase price volatility.
 
-6. Not suitable for all investors
+**6. Not suitable for all investors**
 
 Because gold ETF returns are driven by gold price movements and external economic forces, they may not be well-suited for conservative investors seeking stable or predictable returns.
 
@@ -135,23 +135,23 @@ Because gold ETF returns are driven by gold price movements and external economi
 
 Follow these 5 steps to invest in gold ETFs:
 
-1. Choose the type of gold ETF exposure you want
+**1. Choose the type of gold ETF exposure you want**
 
 Decide whether you want a physical gold ETF, a gold mining ETF, or a leveraged or inverse gold ETF. This choice determines how closely the ETF tracks gold prices and how much risk the product carries.
 
-2. Open or use an existing brokerage or trading account
+**2. Open or use an existing brokerage or trading account**
 
 Invest in gold ETFs through a brokerage or trading platform that offers access to the stock exchange where the ETF is listed.
 
-3. Research the ETF before buying
+**3. Research the ETF before buying**
 
 Check what the ETF holds, how it tracks gold, its expense ratio, liquidity, and historical tracking performance. Confirm that the ETF’s structure matches your investment goal.
 
-4. Place a buy order for the gold ETF
+**4. Place a buy order for the gold ETF**
 
 Search for the ETF by its ticker symbol, choose your position size, and place an order type that fits your approach, such as a market order or limit order.
 
-5. Monitor and manage your position
+**5. Monitor and manage your position**
 
 Review performance, costs, and how the ETF behaves during different market conditions. Close the position when it no longer fits your portfolio goals or risk limits.
 
@@ -190,13 +190,13 @@ Popular gold ETFs refer to gold ETFs with high trading volume, which shows how a
 
 Gold ETFs are taxed based on fund structure, holding period, and the type of account used to hold the investment. Tax treatment varies by country, but the United States provides a useful reference point.
 
-Fund structure
+**Fund structure**
 
 Gold ETFs that hold physical gold are often structured as grantor trusts. In the United States, investors are treated as owning a share of the underlying gold, and long-term capital gains may be taxed at a maximum rate of 28%, reflecting gold’s classification as a collectible. Taxes are generally due only when ETF shares are sold.
 
 Gold ETFs that gain exposure through gold futures may be structured as partnerships. These funds can be taxed under special rules that split gains between long-term and short-term treatment, regardless of how long the ETF is held.
 
-Holding period
+**Holding period**
 
 In many jurisdictions, gold ETF gains are classified as:
 
@@ -205,7 +205,7 @@ In many jurisdictions, gold ETF gains are classified as:
 
 In the US, gold ETFs are generally considered long-term after 12 months, while shorter holdings are taxed as ordinary income.
 
-Tax-advantaged accounts
+**Tax-advantaged accounts**
 
 When gold ETFs are held in retirement or tax-advantaged accounts, taxes on gains are often deferred or reduced until withdrawal, depending on local regulations.
 

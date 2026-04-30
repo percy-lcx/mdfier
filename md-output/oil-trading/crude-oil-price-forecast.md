@@ -67,14 +67,14 @@ The next question is whether [Iran War impact on Oil](https://www.tmgm.com/en/an
 1. Asia is likely to feel the squeeze first
 
 Asian economies remain heavily exposed to Middle Eastern crude.
-[As reported by TMGM Market News, Title: “ [Asian stocks fall on Iran war risks, South Korea’s Kospi leads losses](https://www.tmgm.com/en/analysis/market-news/article/asian-stocks-fall-on-iran-war-risks-south-koreas-kospi-leads-losses-202603030624) ”]
+*[As reported by TMGM Market News, Title: “* [Asian stocks fall on Iran war risks, South Korea’s Kospi leads losses](https://www.tmgm.com/en/analysis/market-news/article/asian-stocks-fall-on-iran-war-risks-south-koreas-kospi-leads-losses-202603030624) *”]*
 
 If Gulf supply stays disrupted, Asia would likely face higher import costs, refinery pressure, and faster inflation before the U.S. feels the full impact.
 
 1. Governments have not capped the move yet
 
 The G7 have discussed releasing strategic oil reserves and other coordinated intervention, but the current verdict is to not deploy the emergency reserve just yet. Until that happens, the market can continue to price at a war premium.
-[As reported by TMGM Market News, Title: “ [G7, IEA reportedly considering joint release of emergency Oil reserves](https://www.tmgm.com/en/analysis/market-news/article/g7-iea-reportedly-considering-joint-release-of-emergency-oil-reserves-202603090555) ”]
+*[As reported by TMGM Market News, Title: “* [G7, IEA reportedly considering joint release of emergency Oil reserves](https://www.tmgm.com/en/analysis/market-news/article/g7-iea-reportedly-considering-joint-release-of-emergency-oil-reserves-202603090555) *”]*
 
 1. The futures curve still points to a shorter term shock
 

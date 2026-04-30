@@ -60,7 +60,7 @@ You calculate spread in Forex by subtracting the bid price from the ask price of
 
 The formula for calculating spread is:
 
-Spread = Ask price − Bid price
+*Spread = Ask price − Bid price*
 
 For example, if GBP/USD is quoted at 1.2500 / 1.2503, the spread is 0.0003, which equals 3 pips.
 
@@ -101,31 +101,31 @@ Spreads change in Forex when the difference between the bid price and the ask pr
 6. Broker type and pricing model
 7. Technical disruptions
 
-1. Liquidity
+**1. Liquidity**
 
 Low liquidity is the main reason spreads widen. When fewer participants are trading a currency pair, there are fewer buy and sell orders available. Brokers increase the gap between bid and ask prices to manage this reduced market depth.
 
-2. Trading session overlaps
+**2. Trading session overlaps**
 
 Spreads behave predictably based on which major sessions (London, New York, Tokyo) are open or overlapping. The London/New York overlap typically produces the tightest spreads, while the late New York to early Tokyo window sees them widen consistently.
 
-3. Market volatility
+**3. Market volatility**
 
 High volatility causes spreads to fluctuate. When prices move quickly, the bid and ask prices adjust rapidly, and brokers widen spreads to account for higher risk. Spreads often widen during major economic news releases.
 
-4. Global events
+**4. Global events**
 
 Natural disasters, political tensions, economic crises, or central bank announcements can increase uncertainty. Traders rush to adjust their positions, and spreads may widen as a result.
 
-5. Interest rate differentials
+**5. Interest rate differentials**
 
 Significant shifts in rate expectations between two currencies can affect how dealers price and hedge positions, which can influence spreads over a longer horizon.
 
-6. Broker type and pricing model
+**6. Broker type and pricing model**
 
 ECN brokers typically offer variable spreads that reflect raw market conditions, while market makers may artificially widen spreads to manage their own book risk. This means some spread changes reflect broker behavior rather than underlying market conditions.
 
-7. Technical disruptions
+**7. Technical disruptions**
 
 Technical problems at exchanges, liquidity providers, or broker systems can temporarily disrupt pricing feeds. This disruption reduces available liquidity and can cause spreads to widen.
 
@@ -163,42 +163,37 @@ Minor and exotic pairs usually have wider spreads because they have lower liquid
 
 There are 5 ways to take advantage of spreads in Forex trading:
 
-1. Research and choose a low-spread broker
-Compare brokers using demo accounts or spread comparison tables. Focus on average spreads during normal market hours, not just the advertised minimum spread.
+**1. Research and choose a low-spread broker** Compare brokers using demo accounts or spread comparison tables. Focus on average spreads during normal market hours, not just the advertised minimum spread.
 
-2. Trade during peak liquidity hours
-Trade during the London–New York session overlap, approximately 13:00 to 16:00 UTC. This period has the highest trading volume, which usually results in tighter spreads.
+**2. Trade during peak liquidity hours** Trade during the London–New York session overlap, approximately 13:00 to 16:00 UTC. This period has the highest trading volume, which usually results in tighter spreads.
 
-3. Avoid high-spread or illiquid pairs
-Major pairs such as EUR/USD and USD/JPY usually have tighter spreads than exotic pairs. Avoid low-liquidity pairs if you want to minimize spread cost.
+**3. Avoid high-spread or illiquid pairs** Major pairs such as EUR/USD and USD/JPY usually have tighter spreads than exotic pairs. Avoid low-liquidity pairs if you want to minimize spread cost.
 
-4. Align spreads with your trading strategy
-Different Forex trading strategies respond differently to spreads. Scalping strategies rely on small price movements and require very tight spreads, while swing or position strategies target larger moves and are less sensitive to small spread differences. Choosing a [strategy that fits the spread conditions](forex-trading-strategies) of your chosen pairs helps control overall trading cost
+**4. Align spreads with your trading strategy** Different Forex trading strategies respond differently to spreads. Scalping strategies rely on small price movements and require very tight spreads, while swing or position strategies target larger moves and are less sensitive to small spread differences. Choosing a [strategy that fits the spread conditions](forex-trading-strategies) of your chosen pairs helps control overall trading cost
 
-5. Understand your break-even point
-Every trade starts with a cost equal to the spread. Knowing how many pips you must gain before reaching break-even helps you set realistic profit targets and stop-loss levels.
+**5. Understand your break-even point** Every trade starts with a cost equal to the spread. Knowing how many pips you must gain before reaching break-even helps you set realistic profit targets and stop-loss levels.
 
 ### How do I find Forex brokers with low spreads?
 
 Do these 5 checks to find a Forex broker with low spreads:
 
-1. Check average spreads, not minimum spreads
+**1. Check average spreads, not minimum spreads**
 
 Brokers often advertise “from 0.0 pips,” but this reflects the lowest possible spread under ideal conditions. Review the average spread on major pairs such as EUR/USD during active trading hours.
 
-2. Compare account types
+**2. Compare account types**
 
 Many brokers offer different pricing models, such as standard spread-only accounts and raw spread accounts with commission. A raw spread account may show tighter spreads, but you must include commission when calculating total trading cost.
 
-3. Use a demo account to test live conditions
+**3. Use a demo account to test live conditions**
 
 Open a demo account and monitor spreads during different sessions, especially during the London–New York overlap from 13:00 to 16:00 UTC. This shows how spreads behave in real market conditions.
 
-4. Evaluate execution quality
+**4. Evaluate execution quality**
 
 Low spreads are only useful if orders are executed efficiently. Look at factors such as slippage, requotes, and platform stability.
 
-5. Review the broker’s Forex trading offering
+**5. Review the broker’s Forex trading offering**
 
 Assess the range of currency pairs, pricing transparency, and trading conditions available on the broker’s Forex trading platform. Competitive spreads should be supported by clear pricing, strong liquidity, and reliable execution.
 
@@ -215,17 +210,13 @@ Spread is only one component of total trading cost. Your actual cost can also in
 3. Overnight swap fees
 4. Spread widening during volatility
 
-1. Commission fees
-Some brokers offer very tight or raw spreads but charge a commission per lot. When you add the commission to the spread, the total cost may be higher than a slightly wider spread with no commission.
+**1. Commission fees** Some brokers offer very tight or raw spreads but charge a commission per lot. When you add the commission to the spread, the total cost may be higher than a slightly wider spread with no commission.
 
-2. Slippage
-If orders are executed at a worse price than expected, the effective cost increases. Poor execution can offset the benefit of a low quoted spread.
+**2. Slippage** If orders are executed at a worse price than expected, the effective cost increases. Poor execution can offset the benefit of a low quoted spread.
 
-3. Overnight swap fees
-If you hold positions overnight, swap charges can add to the total cost, regardless of how tight the spread is.
+**3. Overnight swap fees** If you hold positions overnight, swap charges can add to the total cost, regardless of how tight the spread is.
 
-4. Spread widening during volatility
-A broker may advertise low spreads, but spreads can widen significantly during news events or low-liquidity periods.
+**4. Spread widening during volatility** A broker may advertise low spreads, but spreads can widen significantly during news events or low-liquidity periods.
 
 To evaluate true trading cost, calculate the all-in cost, which includes spread plus commission and any additional fees. A slightly higher spread with stable execution can sometimes be cheaper overall than an ultra-low spread with hidden costs.
 

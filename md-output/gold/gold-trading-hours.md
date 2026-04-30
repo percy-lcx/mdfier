@@ -144,16 +144,16 @@ Four categories of economic events [move gold price significantly](what-is-gold-
 | US Non-Farm Payrolls (NFP) | First Friday of each month | 13:30 UTC | 08:30 EST | High |
 | Geopolitical events | Unscheduled | Variable | Variable | High |
 
-1. US Federal Reserve (FOMC) decisions
+**1. US Federal Reserve (FOMC) decisions**
 FOMC interest rate decisions and meeting minutes are the single largest scheduled catalyst for XAUUSD. Gold reacts directly to changes in US interest rate expectations because higher rates increase the opportunity cost of holding gold. FOMC decisions are released at 19:00 UTC (14:00 EST), with press conferences typically following at 19:30 UTC (14:30 EST).
 
-2. US inflation data (CPI)
+**2. US inflation data (CPI)**
 The US Consumer Price Index is released monthly at 13:30 UTC (08:30 EST). Rising inflation increases gold's appeal as a store of value, and the release consistently produces sharp short-term moves in XAUUSD.
 
-3. US non-farm payrolls (NFP)
+**3. US non-farm payrolls (NFP)**
 NFP is released on the first Friday of each month at 13:30 UTC (08:30 EST). Strong employment data strengthens the USD, which typically pressures gold price lower. Weak data produces the opposite effect.
 
-4. Geopolitical events
+**4. Geopolitical events**
 Wars, sanctions, and financial crises drive demand for gold as a safe-haven asset. These events are unscheduled and can produce significant price moves during any session, including the Asian session where liquidity is otherwise low.
 
 All four categories share one common effect: they concentrate volume and volatility around a specific timestamp, temporarily overriding the session-based liquidity patterns described above. Gold traders should check the economic calendar before opening positions, particularly during lower-liquidity sessions where a data release can move prices sharply with less resistance.

@@ -80,7 +80,7 @@ Profit and loss in Forex are calculated by multiplying the position size by the 
 
 The formula for calculating profit and loss in Forex is as follows :
 
-Profit/Loss = (Exit Price – Entry Price) × Position Size
+*Profit/Loss = (Exit Price – Entry Price) × Position Size*
 
 For a buy trade, you subtract the entry price from the exit price. For a sell trade, you subtract the exit price from the entry price. The result is then multiplied by the number of units traded. In Forex, one standard lot equals 100,000 units of the base currency, so position size directly affects how much each price movement is worth.
 
@@ -115,7 +115,7 @@ As of April 2025, based on data from the Bank for International Settlements (BIS
 3. USD/CNY (US Dollar vs Chinese Yuan)USD 781 billion traded per day, representing 8.1%.
 4. GBP/USD (US Dollar vs British Pound)USD 731 billion traded per day, representing 7.6%.
 
-USD/CAD (US Dollar vs Canadian Dollar)
+**USD/CAD (US Dollar vs Canadian Dollar)**
 USD 505 billion traded per day, representing 5.3%.
 
 ### How do I start buying and selling Forex?

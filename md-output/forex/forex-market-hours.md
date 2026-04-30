@@ -140,7 +140,7 @@ Five categories of economic events move Forex prices significantly, regardless o
 | ECB interest rate decision | 8 times per year | 13:15 | 08:15 | High |
 | Geopolitical events | Unscheduled | Variable | Variable | High |
 
-1. US Federal Reserve (FOMC) decisions
+**1. US Federal Reserve (FOMC) decisions**
 
 FOMC interest rate decisions are the single largest scheduled catalyst for Forex markets. The Federal Reserve sets the US federal funds rate, which directly influences the value of the USD against all other currencies.
 
@@ -149,7 +149,7 @@ FOMC interest rate decisions are the single largest scheduled catalyst for Forex
 
 Decisions are released at 19:00 UTC (14:00 EST), with press conferences following at 19:30 UTC (14:30 EST). Forward guidance in the press conference can extend volatility across USD pairs for the remainder of the New York session.
 
-2. US Non-Farm Payrolls (NFP)
+**2. US Non-Farm Payrolls (NFP)**
 
 NFP is released on the first Friday of each month at 13:30 UTC (08:30 EST). It measures the net change in US employment and is the most closely watched labour market indicator in Forex.
 
@@ -158,7 +158,7 @@ NFP is released on the first Friday of each month at 13:30 UTC (08:30 EST). It m
 
 NFP deviations from consensus forecasts produce the sharpest short-term moves of the month across EUR/USD, GBP/USD, USD/JPY, and USD/CHF.
 
-3. US inflation data (CPI)
+**3. US inflation data (CPI)**
 
 The US Consumer Price Index is released monthly at 13:30 UTC (08:30 EST). CPI measures the rate of price change across a basket of consumer goods and services.
 
@@ -167,11 +167,11 @@ The US Consumer Price Index is released monthly at 13:30 UTC (08:30 EST). CPI me
 
 CPI releases consistently produce sharp directional moves in all major USD pairs within minutes of publication.
 
-4. European Central Bank (ECB) interest rate decisions
+**4. European Central Bank (ECB) interest rate decisions**
 
 ECB interest rate decisions are released 8 times per year at 13:15 UTC (08:15 EST), with press conferences following at 13:45 UTC (08:45 EST). The ECB sets monetary policy for the eurozone, and its rate decisions directly affect EUR/USD, EUR/GBP, and all EUR crosses. Rate divergence between the ECB and Federal Reserve is one of the primary drivers of EUR/USD direction over multi-week periods.
 
-5. Geopolitical events
+**5. Geopolitical events**
 
 Wars, sanctions, trade disputes, and financial crises drive demand for safe-haven currencies such as USD, JPY, and CHF, and weaken risk-sensitive currencies such as AUD, NZD, and emerging market pairs. These events are unscheduled and can produce significant price moves during any session, including the Asian session where liquidity is low and resistance to sharp moves is minimal.
 

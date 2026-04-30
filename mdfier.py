@@ -17,9 +17,43 @@ Usage:
 
 import argparse
 import pathlib
+import re
 import sys
 
 from bs4 import BeautifulSoup, Comment, NavigableString, Tag
+
+_WS_RE = re.compile(r"\s+")
+_HSPACE_RE = re.compile(r"[ \t]+")
+_NEWLINE_RUN_RE = re.compile(r"[ \t]*\n[ \t]*")
+_LINE_EDGE_WS_RE = re.compile(r"[ \t]+\n|\n[ \t]+")
+_STYLE_COLON_RE = re.compile(r"\s*:\s*")
+_STYLE_SEMI_RE = re.compile(r"\s*;\s*")
+
+
+def _normalize_style(raw):
+    """Normalize a CSS style string to `prop: value; prop: value` form."""
+    return _STYLE_SEMI_RE.sub("; ", _STYLE_COLON_RE.sub(": ", _WS_RE.sub(" ", raw.lower()))).strip()
+
+
+def _style_has(element, *prop_values):
+    """Whitespace-tolerant check that an element's style contains any of the given `prop: value` strings."""
+    raw = element.get("style") or ""
+    if not raw:
+        return False
+    norm = _normalize_style(raw)
+    return any(pv in norm for pv in prop_values)
+
+
+def _wrap_inline(inner, marker):
+    """Wrap inner text in marker (`*` / `**`), keeping any leading/trailing space outside the marker."""
+    if not inner:
+        return ""
+    stripped = inner.strip()
+    if not stripped:
+        return ""
+    lead = " " if inner[:1].isspace() else ""
+    trail = " " if inner[-1:].isspace() else ""
+    return f"{lead}{marker}{stripped}{marker}{trail}"
 
 _NESTED_INFO_PARENTS = (
     ".trade-card", ".trade-box", ".trade-mkt",
@@ -75,17 +109,32 @@ def _join_inline(parts):
             continue
         if result:
             prev = result[-1]
+            # Single-`*` italic boundaries (parts may have a leading/trailing space
+            # carried over from the inner text — `_wrap_inline` keeps that outside
+            # the marker — so check the first/last non-space char).
+            italic_open = (
+                part.startswith("*") and not part.startswith("**")
+                and prev and prev[-1] not in " \t\n([")
+            italic_close = (
+                prev.endswith("*") and not prev.endswith("**")
+                and part and part[0] not in " \t\n.,;:!?)]")
             needs_space = (
                 (part.startswith("[") and prev and not prev[-1].isspace())
                 or (prev.endswith(")") and part and not part[0].isspace()
                     and part[0] not in ".,;:!?)")
                 or (part.startswith("**") and prev and prev[-1] not in " \t\n([")
                 or (prev.endswith("**") and part and part[0] not in " \t\n.,;:!?)]")
+                or italic_open
+                or italic_close
             )
             if needs_space:
                 result.append(" ")
         result.append(part)
-    return "".join(result)
+    text = "".join(result)
+    # Word-boundary spaces matter inline, but horizontal whitespace adjacent to
+    # a newline (`<br/>` or `white-space:pre-line` line break) is meaningless
+    # and would otherwise indent the next line in the rendered Markdown.
+    return _LINE_EDGE_WS_RE.sub("\n", text)
 
 
 def convert_inline(element):
@@ -94,8 +143,19 @@ def convert_inline(element):
         return ""
 
     if isinstance(element, NavigableString):
-        text = element.strip()
-        return text if text else ""
+        # Preserve word-boundary whitespace at text-node edges so adjacent styled
+        # spans don't collapse into each other (e.g. `<span>Where </span><span
+        # italic>r_d</span><span> is</span>` would otherwise emit "Wherer_dis").
+        # Keep newlines because `<p style="white-space:pre-line">` uses `\n\n` in
+        # the text node to separate paragraphs.
+        raw = str(element)
+        if not raw.strip():
+            return ""
+        leading = " " if raw[:1] in " \t\n\r" else ""
+        trailing = " " if raw[-1:] in " \t\n\r" else ""
+        inner = _HSPACE_RE.sub(" ", raw.strip())
+        inner = _NEWLINE_RUN_RE.sub("\n", inner)
+        return leading + inner + trailing
 
     if not isinstance(element, Tag):
         return ""
@@ -124,6 +184,26 @@ def convert_inline(element):
 
     if element.name == "img":
         return ""
+
+    # Google-Docs style inline-styled spans (TMGM SSR HTML emits these instead
+    # of <em>/<strong>): `font-style: italic` → *…*, `font-weight: 700/bold` → **…**.
+    if element.name == "span":
+        is_italic = _style_has(element, "font-style: italic")
+        is_bold = _style_has(
+            element,
+            "font-weight: 700",
+            "font-weight: 800",
+            "font-weight: 900",
+            "font-weight: bold",
+            "font-weight: bolder",
+        )
+        if is_italic or is_bold:
+            inner = _join_inline([convert_inline(c) for c in element.children])
+            if is_italic and is_bold:
+                return _wrap_inline(inner, "***")
+            if is_italic:
+                return _wrap_inline(inner, "*")
+            return _wrap_inline(inner, "**")
 
     # For spans and other inline elements, recurse into children
     parts = []

@@ -122,19 +122,19 @@ You can minimize your Forex trading risks by following these 4 steps:
 3. Learn risk management
 4. Trade with a trusted Forex broker
 
-1. Understand the Forex market
+**1. Understand the Forex market**
 
 Forex risk drops when traders understand what moves currencies, such as central bank policy, inflation data, and liquidity changes across trading sessions, because volatility becomes more predictable and easier to plan around.
 
-2. Learn Forex trading mechanics
+**2. Learn Forex trading mechanics**
 
 Traders manage risk better when they [understand key Forex trading mechanics](what-is-forex-trading) such as currency pairs, the concept of buying and selling for beginners, price movements in pips, spreads, leverage and margin, market factors, and trading hours, as fewer losses come from execution surprises or incorrect position sizing.
 
-3. Learn risk management
+**3. Learn risk management**
 
 Learning risk management reduces Forex trading risk by using Stop Loss orders to cap losses on every position. It avoids overleverage so normal volatility does not trigger a margin call, and diversifies trades across less correlated currency pairs to prevent a single market move from hitting the entire account.
 
-4. Trade with a trusted Forex broker
+**4. Trade with a trusted Forex broker**
 
 A trusted broker reduces operational risk by operating under clear regulation, publishing transparent execution rules, maintaining stable platforms, and handling deposits and withdrawals reliably. TMGM discloses its regulatory supervision details and execution policy, and supports traders with structured education through TMGM Academy.
 

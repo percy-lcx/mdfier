@@ -46,11 +46,11 @@ Spot gold prices rose 27%, and central banks bought over 1,000 tonnes, their thi
 
 For trading purposes, 3 of these have the most direct and immediate impact on price:
 
-Interest ratesset by the US Federal Reserve raise or lower the opportunity cost of holding gold. Higher rates tend to pressure gold prices lower. Lower rates tend to support them.
+**Interest rates** set by the US Federal Reserve raise or lower the opportunity cost of holding gold. Higher rates tend to pressure gold prices lower. Lower rates tend to support them.
 
-US dollar strengthmoves inversely with gold in most market conditions. A weaker dollar makes gold cheaper for buyers in other currencies, which increases demand and pushes prices up.
+**US dollar strength** moves inversely with gold in most market conditions. A weaker dollar makes gold cheaper for buyers in other currencies, which increases demand and pushes prices up.
 
-Economic and geopolitical uncertaintydrives traders toward gold as a safe-haven asset. Tariff announcements, recession risk, and political instability can trigger rapid price moves.
+**Economic and geopolitical uncertainty** drives traders toward gold as a safe-haven asset. Tariff announcements, recession risk, and political instability can trigger rapid price moves.
 
 Traders who [understand gold as a market](what-is-gold-trading) are better positioned to read these signals before placing a trade.
 
@@ -66,24 +66,20 @@ There are 5 criteria for choosing a [gold trading platform](gold):
 4. Demo account access
 5. Platform technology
 
-1. Regulation
+**1. Regulation**
 The platform must be licensed by a recognised financial authority. Regulation determines how your funds are held, what protections apply to your account, and whether the platform is legally accountable in your jurisdiction.
 
 TMGM is regulated by ASIC (Australian Securities and Investments Commission)
 
 TMGM holds client funds in segregated accounts, maintains adequate capital reserves, and complies with strict reporting obligations. Your deposited funds cannot be used for the platform's own operations and remain protected if the platform faces financial difficulty.
 
-2. Trading costs
-Platforms charge for gold trades through spreads, commissions, or overnight fees. For XAU/USD, typical spreads range from 0.3 to 0.5 pips on raw pricing accounts. Lower spreads reduce the cost of each trade, which compounds over time, especially for traders who open and close positions frequently.
+**2. Trading costs** Platforms charge for gold trades through spreads, commissions, or overnight fees. For XAU/USD, typical spreads range from 0.3 to 0.5 pips on raw pricing accounts. Lower spreads reduce the cost of each trade, which compounds over time, especially for traders who open and close positions frequently.
 
-3. Leverage and margin conditions
-Platforms set their own leverage limits and margin requirements for gold. These determine how much capital you need to open a position and how much exposure you can take on.
+**3. Leverage and margin conditions** Platforms set their own leverage limits and margin requirements for gold. These determine how much capital you need to open a position and how much exposure you can take on.
 
-4. Demo account access
-A demo account lets you practice placing gold trades using real market prices without risking capital. It is the most direct way to evaluate whether a platform suits your trading style before committing real funds.
+**4. Demo account access** A demo account lets you practice placing gold trades using real market prices without risking capital. It is the most direct way to evaluate whether a platform suits your trading style before committing real funds.
 
-5. Platform technology
-The trading interface the platform provides affects how quickly and accurately you can execute trades. Look for platforms that offer advanced charting, real-time price feeds, and automated order types such as stop-loss and take-profit orders.
+**5. Platform technology** The trading interface the platform provides affects how quickly and accurately you can execute trades. Look for platforms that offer advanced charting, real-time price feeds, and automated order types such as stop-loss and take-profit orders.
 
 ## 3. Open your gold trading account
 
@@ -96,17 +92,13 @@ Opening a gold trading account involves 4 steps:
 3. Fund your account
 4. Activate your account
 
-1. Complete the registration form
-Provide your personal details, including your name, email address, and country of residence.
+**1. Complete the registration form** Provide your personal details, including your name, email address, and country of residence.
 
-2. Verify your identity
-Submit a government-issued ID and a proof of address document. This is a regulatory requirement across all licensedplatforms.
+**2. Verify your identity** Submit a government-issued ID and a proof of address document. This is a regulatory requirement across all licensedplatforms.
 
-3. Fund your account
-Deposit your chosen amount using the platform's available payment methods, such as bank transfer or card payment.
+**3. Fund your account** Deposit your chosen amount using the platform's available payment methods, such as bank transfer or card payment.
 
-4. Activate your account
-Once verified and funded, your account is live and you can access the gold market.
+**4. Activate your account** Once verified and funded, your account is live and you can access the gold market.
 
 Most platforms complete the verification process within 24 hours.
 
@@ -134,26 +126,19 @@ A gold trading plan includes 7 components:
 6. Risk management rules
 7. Trading journal
 
-1. Trading goals
-Define clear performance targets, such as monthly return objectives or maximum drawdown limits.
+**1. Trading goals** Define clear performance targets, such as monthly return objectives or maximum drawdown limits.
 
-2. Trading timeframe
-Specify whether you intend to trade gold intraday, over several days, or across longer-term trends. Your timeframe determines which price movements are relevant to your strategy.
+**2. Trading timeframe** Specify whether you intend to trade gold intraday, over several days, or across longer-term trends. Your timeframe determines which price movements are relevant to your strategy.
 
-3. Trading strategy
-Define the setup criteria, indicators, and confirmation rules required before entering a gold trade. This includes the technical or fundamental conditions that must be present before you execute.
+**3. Trading strategy** Define the setup criteria, indicators, and confirmation rules required before entering a gold trade. This includes the technical or fundamental conditions that must be present before you execute.
 
-4. Entry rules
-State the exact conditions required to open a gold trade.
+**4. Entry rules** State the exact conditions required to open a gold trade.
 
-5. Exit rules
-Define your stop-loss placement, take-profit levels, and trade management rules for open gold positions.
+**5. Exit rules** Define your stop-loss placement, take-profit levels, and trade management rules for open gold positions.
 
-6. Risk management rules
-Set your maximum risk per trade, position sizing formula, and total account risk exposure. A widely accepted guideline is to risk no more than 1–2% of your account balance per trade to preserve capital and reduce the likelihood of significant drawdowns. On a $100 account, that means a maximum of $1–$2 at risk per trade. On a $1,000 account, that ceiling rises to $10–$20 per trade.
+**6. Risk management rules** Set your maximum risk per trade, position sizing formula, and total account risk exposure. A widely accepted guideline is to risk no more than 1–2% of your account balance per trade to preserve capital and reduce the likelihood of significant drawdowns. On a $100 account, that means a maximum of $1–$2 at risk per trade. On a $1,000 account, that ceiling rises to $10–$20 per trade.
 
-7. Trading journal
-Document each gold trade and schedule regular performance reviews to identify strengths and weaknesses in your execution.
+**7. Trading journal** Document each gold trade and schedule regular performance reviews to identify strengths and weaknesses in your execution.
 
 ## 5. Place your first gold trade
 
@@ -167,17 +152,13 @@ Going short means you sell a gold position because you expect the price to fall.
 
 To place your first gold trade, follow these 4 steps:
 
-1. Select gold from your platform's market list
-Spot gold is typically listed as XAU/USD.
+**1. Select gold from your platform's market list** Spot gold is typically listed as XAU/USD.
 
-2. Choose your trade direction
-Select buy to go long or sell to go short based on your trading plan.
+**2. Choose your trade direction** Select buy to go long or sell to go short based on your trading plan.
 
-3. Set your position size
-Enter the volume you want to trade. On most gold CFD platforms, volume is measured in lots. A standard lot controls the equivalent of 100 ounces of gold, a mini lot controls 10 ounces, and a micro lot controls 1 ounce. Your lot size determines how much your account gains or loses for every dollar the gold price moves.
+**3. Set your position size** Enter the volume you want to trade. On most gold CFD platforms, volume is measured in lots. A standard lot controls the equivalent of 100 ounces of gold, a mini lot controls 10 ounces, and a micro lot controls 1 ounce. Your lot size determines how much your account gains or loses for every dollar the gold price moves.
 
-4. Set your stop-loss and take-profit levels
-Define the price at which your trade closes automatically, both to limit losses and to lock in profits.
+**4. Set your stop-loss and take-profit levels** Define the price at which your trade closes automatically, both to limit losses and to lock in profits.
 
 Once all four inputs are confirmed, submit the order. Your gold trade is now live.
 
@@ -192,17 +173,13 @@ There are 4 things to manage once a gold trade is live:
 3. Price levels and news events
 4. Your exit conditions
 
-1. Your stop-loss level
-As the gold price moves in your favour, adjust your stop-loss upward to protect accumulated gains. This is called a trailing stop. It locks in profit without closing the position prematurely.
+**1. Your stop-loss level** As the gold price moves in your favour, adjust your stop-loss upward to protect accumulated gains. This is called a trailing stop. It locks in profit without closing the position prematurely.
 
-2. Your margin level
-Monitor your account margin to ensure your broker does not automatically close your position due to insufficient funds. If the gold price moves against you, your required margin increases.
+**2. Your margin level** Monitor your account margin to ensure your broker does not automatically close your position due to insufficient funds. If the gold price moves against you, your required margin increases.
 
-3. Price levels and news events
-Gold prices react sharply to economic data releases, central bank decisions, and geopolitical developments. Monitor scheduled events that are likely to cause volatility during your open trade.
+**3. Price levels and news events** Gold prices react sharply to economic data releases, central bank decisions, and geopolitical developments. Monitor scheduled events that are likely to cause volatility during your open trade.
 
-4. Your exit conditions
-Compare live price action against the exit rules in your trading plan. Close the trade when your predefined conditions are met, not in response to short-term price noise.
+**4. Your exit conditions** Compare live price action against the exit rules in your trading plan. Close the trade when your predefined conditions are met, not in response to short-term price noise.
 
 How actively you manage an open trade depends on the approach you trade with. Traders who use [rules-based approaches to gold markets](gold-trading-guide) apply different management techniques depending on whether they are trading short-term price movements or longer-term trends.
 
@@ -212,14 +189,13 @@ Closing a gold trade means exiting your open position, which realises your profi
 
 There are 3 ways a gold trade closes:
 
-You close it manually
+**You close it manually**
 You exit the position yourself when your trading plan conditions are met, such as a target price level being reached or a change in market conditions that invalidates your original trade setup.
 
-Your take-profit order is triggered
+**Your take-profit order is triggered**
 Your trade closes automatically when the gold price reaches the profit level you set at entry. This removes the need to monitor the position continuously.
 
-Your stop-loss order is triggered
-Your trade closes automatically when the gold price reaches your predefined loss limit. This caps your downside and prevents the loss from extending beyond what your risk management rules allow.
+**Your stop-loss order is triggered** Your trade closes automatically when the gold price reaches your predefined loss limit. This caps your downside and prevents the loss from extending beyond what your risk management rules allow.
 
 After closing, record the trade in your trading journal. Note your entry price, exit price, position size, profit or loss, and whether you followed your trading plan rules. Reviewing closed trades consistently is how you identify what works and improve execution over time.
 
@@ -276,10 +252,10 @@ In Forex, gold is traded as XAUUSD and follows the same order structure as curre
 
 You can trade gold on MetaTrader 4 (MT4), MetaTrader 5 (MT5), and the TMGM mobile app.
 
-MetaTrader 4 (MT4) is the most widely used trading platform for gold. It supports real-time XAU/USD price feeds, advanced charting tools, and automated trading through expert advisors (EAs).
+**MetaTrader 4 (MT4)** is the most widely used trading platform for gold. It supports real-time XAU/USD price feeds, advanced charting tools, and automated trading through expert advisors (EAs).
 
-MetaTrader 5 (MT5) builds on MT4 with additional timeframes, more technical indicators, and faster order execution. It suits traders who want more analytical depth without switching brokers.
+**MetaTrader 5 (MT5)** builds on MT4 with additional timeframes, more technical indicators, and faster order execution. It suits traders who want more analytical depth without switching brokers.
 
-The TMGM mobile appgives you full access to your gold trades from your phone. You can open, manage, and close XAU/USD positions, monitor live prices, and set alerts directly from the app.
+**The TMGM mobile app** gives you full access to your gold trades from your phone. You can open, manage, and close XAU/USD positions, monitor live prices, and set alerts directly from the app.
 
 All three platforms are available through TMGM on a single trading account.

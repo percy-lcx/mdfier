@@ -96,7 +96,7 @@ The table below summarises these differences between major Forex jurisdictions.
 | Singapore | MAS | 20:1 to 50:1 depending on risk tier | SGD 1,000,000 or more depending on licence type | Not universally mandated | Limited compensation structure |
 | Hong Kong | SFC | Around 20:1 | HKD 5,000,000 or more depending on licence | Not universally mandated | Applies in limited cases |
 
-1. Maximum Retail Leverage
+**1. Maximum Retail Leverage**
 
 Leverage caps vary significantly by country. Lower leverage limits reduce the risk of rapid account losses. Higher leverage increases potential gains but also increases margin risk.
 
@@ -106,7 +106,7 @@ Leverage caps vary significantly by country. Lower leverage limits reduce the ri
 - Japan limits leverage to 25:1.
 - Singapore and Hong Kong generally operate around 20:1, though Singapore can allow higher leverage depending on client classification.
 
-2. Minimum Capital Requirements for Brokers
+**2. Minimum Capital Requirements for Brokers**
 
 Regulators require brokers to hold minimum capital to reduce insolvency risk. Higher capital requirements increase broker resilience during market stress.
 
@@ -114,7 +114,7 @@ Regulators require brokers to hold minimum capital to reduce insolvency risk. Hi
 - Japan requires a JPY 50 million net asset minimum and a 120 percent capital adequacy ratio.
 - Singapore and Hong Kong set capital levels based on licence type.
 
-3. Negative Balance Protection
+**3. Negative Balance Protection**
 
 Negative balance protection prevents retail traders from losing more than their deposited funds. This rule directly affects a trader’s downside risk during extreme volatility.
 
@@ -123,7 +123,7 @@ Negative balance protection prevents retail traders from losing more than their 
 - The United States and Japan do not have a formal negative balance protection rule but enforce strict margin close-out requirements.
 - Singapore and Hong Kong do not universally mandate it.
 
-4. Investor Compensation Schemes
+**4. Investor Compensation Schemes**
 
 Compensation schemes protect client funds in insolvency cases, not trading losses. Some jurisdictions provide compensation if a licensed broker becomes insolvent.
 
@@ -149,7 +149,7 @@ There are 6 core regulatory requirements that apply in most major jurisdictions.
 5. Risk controls and client protection measures
 6. Ongoing reporting and audits
 
-1. Licensing approval
+**1. Licensing approval**
 
 A Forex broker must obtain a licence from a recognised financial authority before offering services to retail traders.
 
@@ -163,7 +163,7 @@ The regulator reviews these 5 things during the application process:
 
 Without regulatory approval, a firm cannot legally market retail Forex trading in that jurisdiction.
 
-2. Capital adequacy requirements
+**2. Capital adequacy requirements**
 
 Regulators require brokers to maintain minimum capital at all times.
 
@@ -176,7 +176,7 @@ Capital requirements ensure the broker can meet these 4 obligations:
 
 Higher capital thresholds reduce insolvency risk.
 
-3. Client fund segregation
+**3. Client fund segregation**
 
 Licensed brokers must keep client money separate from company funds.
 
@@ -188,7 +188,7 @@ A [licensed Forex broker](forex) must comply with these 3 requirements under seg
 
 Segregation protects client funds if the broker becomes insolvent.
 
-4. Transparency and disclosure rules
+**4. Transparency and disclosure rules**
 
 A regulated broker must clearly disclose these 5 items:
 
@@ -202,7 +202,7 @@ In some jurisdictions, brokers must also publish the percentage of retail accoun
 
 These disclosure requirements allow traders to assess costs and risks before opening an account.
 
-5. Risk controls and client protection
+**5. Risk controls and client protection**
 
 Regulators usually require these 4 protections:
 
@@ -213,7 +213,7 @@ Regulators usually require these 4 protections:
 
 These measures reduce the likelihood of excessive retail losses.
 
-6. Ongoing reporting and audits
+**6. Ongoing reporting and audits**
 
 Brokers must continue to meet these 4 requirements after getting licensed:
 
@@ -236,7 +236,7 @@ Forex regulations affect traders in 6 main ways, including:
 
 Regulation does not remove market risk. Prices can still move against a position. What regulation does is reduce counterparty risk and create a structured trading environment designed to protect trader capital.
 
-1. Reduced risk from excessive leverage
+**1. Reduced risk from excessive leverage**
 
 Forex regulation limits how much leverage retail traders can use.
 
@@ -250,7 +250,7 @@ For traders, this means:
 
 Although leverage caps may restrict aggressive short-term strategies or complex hedging approaches, they reduce the likelihood of catastrophic losses.
 
-2. Protection from owing more than you deposit
+**2. Protection from owing more than you deposit**
 
 In some jurisdictions, negative balance protection ensures that losses cannot exceed the funds in your trading account.
 
@@ -261,7 +261,7 @@ For traders, this means:
 
 In jurisdictions without this protection, sharp market moves can result in negative balances that must be repaid.
 
-3. Stronger security of deposited funds
+**3. Stronger security of deposited funds**
 
 Regulation protects trader capital through fund segregation and capital adequacy rules.
 
@@ -273,7 +273,7 @@ For traders, this provides:
 
 These safeguards increase confidence that deposited funds are protected under financial law.
 
-4. Fairer Forex trading environment
+**4. Fairer Forex trading environment**
 
 Forex regulation is designed to reduce price manipulation, deceptive marketing, and unfair execution practices in retail Forex trading.
 
@@ -286,7 +286,7 @@ For traders, this creates:
 
 These measures promote orderly market conditions and improve trading fairness.
 
-5. Access to formal complaint and compensation channels
+**5. Access to formal complaint and compensation channels**
 
 Forex regulation establishes formal channels for resolving disputes.
 
@@ -298,7 +298,7 @@ For traders, this means:
 
 This legal recourse does not exist when trading with unregulated firms.
 
-6. Market stability and trader confidence
+**6. Market stability and trader confidence**
 
 Forex regulations set capital standards and oversight requirements that stabilise the trading environment.
 
@@ -314,7 +314,7 @@ Regulatory changes can influence trader sentiment and expectations, as they dire
 
 You can check if a Forex broker is regulated by verifying its licence number directly with the official financial regulator. Follow these 4 steps to verify a broker’s regulation.
 
-1. Check the broker’s official website
+**1. Check the broker’s official website**
 
 Start by visiting the broker’s official website.
 
@@ -329,7 +329,7 @@ This information is usually found at the bottom of the homepage, in the website 
 
 A missing licence number is a warning sign.
 
-2. Identify the exact legal entity
+**2. Identify the exact legal entity**
 
 Many global brokers operate multiple entities under different regulators.
 
@@ -340,7 +340,7 @@ Before verifying, confirm:
 
 The protections that apply depend on the specific licensed entity, not just the brand name.
 
-3. Visit the regulator’s official website
+**3. Visit the regulator’s official website**
 
 Every regulatory agency maintains an official website with a searchable public register or licence database.
 
@@ -429,7 +429,7 @@ Regulator tiers in Forex are an industry classification system used to compare t
 
 In Forex trading, regulators are generally grouped into 3 tiers based on enforcement strength, capital requirements, and investor protection standards.
 
-Tier 1 regulators: Strongest oversight
+**Tier 1 regulators: Strongest oversight**
 
 Tier 1 regulators are considered to have the highest level of investor protection and enforcement authority.
 
@@ -443,7 +443,7 @@ They typically require:
 
 Tier 1 regulators are usually based in major financial centres. Brokers licensed under Tier 1 authorities operate under stricter compliance standards.
 
-Tier 2 regulators: Established but moderate framework
+**Tier 2 regulators: Established but moderate framework**
 
 Tier 2 regulators operate under recognised legal systems but may impose slightly lower capital thresholds or fewer investor protection measures compared to Tier 1 authorities.
 
@@ -456,7 +456,7 @@ They generally require:
 
 Tier 2 oversight is structured and legitimate, but the level of retail safeguards may differ.
 
-Tier 3 regulators: International financial centres
+**Tier 3 regulators: International financial centres**
 
 Tier 3 regulators are often based in international financial centres and offshore jurisdictions.
 

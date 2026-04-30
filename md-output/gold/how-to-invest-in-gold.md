@@ -227,23 +227,23 @@ These characteristics explain [why gold maintains long-term value](why-is-gold-v
 
 There are 5 limitations of gold investment:
 
-1. Gold does not generate income
+**1. Gold does not generate income**
 
 Gold does not pay interest, dividends, or any form of passive income. Returns depend entirely on price appreciation rather than ongoing cash flow.
 
-2. Gold prices can be volatile
+**2. Gold prices can be volatile**
 
 Gold and other precious metals can experience sharp price swings, especially during periods of changing interest rates or market sentiment.
 
-3. Physical gold involves storage and security costs
+**3. Physical gold involves storage and security costs**
 
 Holding physical gold requires secure storage, insurance, and sometimes transportation, which adds ongoing costs for investors.
 
-4. Gold often trades at a premium to spot price
+**4. Gold often trades at a premium to spot price**
 
 Investors typically pay premiums above the spot gold price when buying physical gold, especially for coins and small bars.
 
-5. Gold can require higher upfront capital
+**5. Gold can require higher upfront capital**
 
 Compared with fractional or income-producing assets, gold often requires a larger initial investment, particularly when purchasing physical forms.
 
@@ -256,16 +256,16 @@ There are 4 criteria to consider when choosing a gold investment method:
 3. Storage and handling preference
 4. Income requirement
 
-1. Capital available
+**1. Capital available**
 Gold savings plans and tokenized gold have the lowest entry points, with fractional ownership available from very small amounts. Physical gold and sovereign gold bonds require medium to higher upfront capital, particularly when purchasing standard bar sizes.
 
-2. Investment horizon
+**2. Investment horizon**
 Physical gold, gold certificates, and sovereign gold bonds suit long-term holding. Sovereign gold bonds carry a fixed maturity of 8 years. Gold ETFs and gold mining stocks suit investors who want the flexibility to exit at any time during market hours.
 
-3. Storage and handling preference
+**3. Storage and handling preference**
 Physical gold requires secure storage and insurance. Gold certificates, gold ETFs, gold savings plans, tokenized gold, sovereign gold bonds, and gold mining stocks require no physical storage.
 
-4. Income requirement
+**4. Income requirement**
 Sovereign gold bonds are the only gold investment method that generates interest income alongside gold price exposure. Gold mining stocks offer potential dividend income. All other methods rely on price appreciation alone for returns.
 
 The table below maps each criterion to the most suitable investment method:

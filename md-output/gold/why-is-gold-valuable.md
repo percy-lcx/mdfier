@@ -153,27 +153,27 @@ Because scarcity limits dilution and gold’s physical properties allow it to en
 
 The value of gold is determined by these 6 factors:
 
-1. Demand
+**1. Demand**
 
 Gold demand comes from investors, central banks, jewelry consumers, and industry. When demand rises faster than available supply, gold prices increase.
 
-2. Supply
+**2. Supply**
 
 Gold supply is limited by mining output and recycling. Annual production grows slowly, which restricts how quickly new supply can enter the market and supports price stability over time.
 
-3. Central banks and reserves
+**3. Central banks and reserves**
 
 Central banks influence gold value through reserve accumulation or sales. When central banks increase gold holdings, they reduce market supply and signal long-term confidence in gold as a monetary asset.
 
-4. Currency and inflation
+**4. Currency and inflation**
 
 Gold is priced globally in US dollars, so currency movements matter. A weaker dollar or rising inflation increases gold’s appeal as a store of value, which pushes prices higher.
 
-5. Market sentiment
+**5. Market sentiment**
 
 Investor perception during periods of uncertainty, financial stress, or geopolitical risk often drives capital into gold. This safe-haven demand can move prices independently of physical supply and demand.
 
-6. Real economy uses
+**6. Real economy uses**
 
 Gold’s use in jewelry, electronics, medicine, and energy technology creates baseline demand that anchors part of its value to practical utility rather than investment flows alone.
 
@@ -183,27 +183,27 @@ These factors explain why gold prices respond to economic data, policy shifts, a
 
 Gold’s value has changed over time through a series of distinct monetary and market phases, each reflecting shifts in how gold is priced and used:
 
-Before 1971
+**Before 1971**
 
 Gold prices were largely fixed under gold-backed monetary systems. The US dollar, for example, was pegged at USD 35 per ounce, which kept gold value stable but disconnected from market forces.
 
-1970s inflation era
+**1970s inflation era**
 
 Gold began trading freely after the end of the gold standard in 1971. High inflation and currency devaluation pushed gold prices sharply higher, establishing its role as an inflation hedge.
 
-1980s to early 2000s
+**1980s to early 2000s**
 
 Gold prices moved sideways or declined in real terms as inflation eased, interest rates remained high, and confidence in fiat currencies strengthened.
 
-Post-2008 financial crisis
+**Post-2008 financial crisis**
 
 Gold prices rose strongly as monetary stimulus, low interest rates, and financial instability increased demand for safe-haven assets, with prices moving above USD 1,000 per ounce.
 
-Monetary normalization between 2013 and 2019
+**Monetary normalization between 2013 and 2019**
 
 As central banks signaled tighter policy and economic recovery, gold prices corrected and traded in a broad range. This period showed that gold can underperform when real interest rates rise and risk appetite improves.
 
-2020s period of uncertainty
+**2020s period of uncertainty**
 
 Gold reached new highs amid pandemic disruptions, inflation concerns, geopolitical tension, and increased central bank buying, reinforcing its role as a monetary and risk-hedging asset.
 

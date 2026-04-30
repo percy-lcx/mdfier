@@ -4,7 +4,7 @@ title: Trade Forex (FX) | Forex Trading Broker | TMGM
 
 # Forex Trading with TMGM
 
-Elevate your trading with our award-winning platforms. Access the world's largest financial market with competitive spreads on60+ currency pairs.
+Elevate your trading with our award-winning platforms. Access the world's largest financial market with competitive spreads on 60+ currency pairs.
 
 ---
 
@@ -16,7 +16,7 @@ Sign up and access the Global Markets in less than 3 minutes
 
 ## Why Trade CFDs on Forex?
 
-The forex market is the world's largest and most liquid, with a daily trading volume exceeding$6 trillion.By trading CFDs on forex, you can capitalize on price movements in global currencies 24 hours a day, five days a week.
+The forex market is the world's largest and most liquid, with a daily trading volume exceeding $6 trillion. By trading CFDs on forex, you can capitalize on price movements in global currencies 24 hours a day, five days a week.
 
 With TMGM, you benefit from:
 
@@ -40,7 +40,7 @@ With TMGM, you benefit from:
 
 ### Opening the Position
 
-You decide to short (sell) 1.5 standard lotsof EUR/USD at an opening price of1.40000, which gives you a position size of€150,000. With TMGM's1:1000 leverage, your required margin is only€150, allowing you to control a larger position with a smaller deposit. The total value of the trade is$210,000.
+You decide to short (sell) 1.5 standard lots of EUR/USD at an opening price of 1.40000, which gives you a position size of €150,000. With TMGM's 1:1000 leverage, your required margin is only €150, allowing you to control a larger position with a smaller deposit. The total value of the trade is $210,000.
 
 ### Closing the Position
 
